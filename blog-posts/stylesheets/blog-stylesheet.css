@@ -38,6 +38,7 @@ height: 250px;}
   font-size: 27px;
   padding: 20px 0px 10px 40px;
   border-radius: 5px;
+  clear: left;
 }
 
 #date {
@@ -126,6 +127,7 @@ height: 250px;}
   color: DarkSlateGray;
   font-weight: bold;
   position: relative;
+
 
 }
 
@@ -384,6 +386,8 @@ height: 250px;}
 /*each block----*/
 #nav {
   float:  center;
+  position: relative;
+  z-index: 1000;
 }
 
 #nav ul {
@@ -433,6 +437,7 @@ height: 250px;}
 /*hover over two blog options*/
 #nav ul li ul li:hover {
   background: #DCDCDC; /*background when hover over "blogs"*/
+
 
 }
 
