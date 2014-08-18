@@ -90,18 +90,23 @@ height: 250px;}
   text-decoration: underline;
 }
 
-#post img {
+#post .hover{
   position: absolute;
   visibility: hidden;
 
 }
 
-#post a:hover img {
+#post a:hover .hover {
 
   visibility: visible;
   height: 200px;
   width: 200px;
   padding-top: 30px;
+}
+
+#post .inline {
+  padding: 2%;
+  display: block;
 }
 
 
