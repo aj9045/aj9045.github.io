@@ -32,7 +32,7 @@ header #projects {
   background-color: #11524E;
 }
 header #tech {
-  background-color: Pink;
+  background-color: #FAAA67;
 }
 header #cult {
   background-color: #0DBAB9;
@@ -85,18 +85,27 @@ header #projects a, #cult a {
   padding-left: 10%;
   padding-right: 10%;
   font-size: 1.45em;
-  border-top: 4px dashed Pink;
+  border-top: 4px dashed #FAAA67;
 }
 
 #content p {
   text-indent: 7%;
 }
 
+#content img {
+  height: 250px;
+  width: 250px;
+  float: right;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
 #contact {
+  color: #153834;
   padding-left: 10%;
   padding-bottom: 1.5%;
-  border-top: 4px dotted Pink;
-  border-bottom: 4px dotted Pink;
+  border-top: 4px dotted #FAAA67;
+  border-bottom: 4px dotted #FAAA67;
   font-size: 1.2em;
 }
 
