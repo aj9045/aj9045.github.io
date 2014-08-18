@@ -8,6 +8,7 @@ background-color: #BFBEB9;
 
   #container {
   background-color: #E7FFF6;
+
 }
 
 header {
@@ -23,6 +24,7 @@ header img {
   width: 1000px; /*1200px*/
   margin-top: 1%;
   background-color: transparent;
+  border-top: 8px solid #FFEF7A;
 }
 
 #content a {
