@@ -89,6 +89,7 @@ border-radius: 50%;
   height: 150px;
   margin: 2%;
   vertical-align: middle;
+  padding: 1%;
 
 }
 #welcome a p {
@@ -386,9 +387,9 @@ header img {
 
 }
 
-/*----------795px----------*/
+/*----------810px----------*/
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 810px) {
 
   #content a{
   color: gray;
@@ -460,11 +461,11 @@ header img {
 
 }
 
-/*----------665px----------*/
+/*----------680px----------*/
 
 
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 680px) {
 
   header img {
   width: 100%; /*1200px*/
@@ -567,7 +568,7 @@ header img {
 
   header img {
   width: 100%; /*1200px*/
-  height:270px;
+  height:250px;
 }
 
   #welcome {
