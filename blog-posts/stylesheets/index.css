@@ -56,10 +56,14 @@ header img {
 
 #about a p {
 padding-bottom: 40%;
-margin-top: 2%;
+margin-top: 7%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#about a p:hover {
+color: #FFEF7A;
 }
 
 #projects {
@@ -74,13 +78,15 @@ border-radius: 50%;
 
 #projects a p {
 padding-bottom: 40%;
-margin-top: 2%;
+margin-top: 7%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
 }
 
-
+#projects a p:hover {
+color: #11524E;
+}
 
 #welcome {
   display: inline-block;
@@ -108,11 +114,15 @@ border-radius: 50%;
 }
 
 #tech a p {
-margin-top: 2%;
+margin-top: 7%;
 padding-bottom: 40%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#tech a p:hover {
+color: #FFEF7A;
 }
 
 #cult{
@@ -126,11 +136,15 @@ border-radius: 50%;
 }
 
 #cult a p {
-margin-top: 2%;
+margin-top: 7%;
 padding-bottom: 40%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#cult a p:hover {
+color: #345A59;
 }
 
 footer {
@@ -210,10 +224,14 @@ header img {
 
 #about a p {
 padding-bottom: 40%;
-margin-top: 2%;
+margin-top: 7%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#about a p:hover {
+color: #FFEF7A;
 }
 
 #projects {
@@ -228,13 +246,15 @@ border-radius: 50%;
 
 #projects a p {
 padding-bottom: 40%;
-margin-top: 2%;
+margin-top: 7%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
 }
 
-
+#projects a p:hover {
+color: #11524E;
+}
 
 #welcome {
   display: inline-block;
@@ -261,11 +281,15 @@ border-radius: 50%;
 }
 
 #tech a p {
-margin-top: 2%;
+margin-top: 7%;
 padding-bottom: 40%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#tech a p:hover {
+color: #FFEF7A;
 }
 
 #cult{
@@ -279,11 +303,15 @@ border-radius: 50%;
 }
 
 #cult a p {
-margin-top: 2%;
+margin-top: 7%;
 padding-bottom: 40%;
 margin-left: 2%;
 margin-right: 2%;
 border-radius: 50%;
+}
+
+#cult a p:hover {
+color: #345A59;
 }
 
 footer {
