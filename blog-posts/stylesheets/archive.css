@@ -1,0 +1,168 @@
+html, body {width: 1000px;
+height: 100%;
+min-width: 310px;
+margin: auto;
+background-color: #069182;
+}
+
+header {
+  width: 100%;
+  background-color: #8BFFEB;
+  text-align: center;
+  height:200px;
+  margin-top: 2%;
+}
+
+header #circles {
+  margin-left: -1.7%;
+}
+
+header #circles div {
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-left: 2%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+
+header a {
+  font-size: 1.1em;
+  vertical-align: middle;
+  line-height: 110px;
+  text-decoration: none;
+  color: #11524E;
+}
+header #home a:hover{
+  color:white;
+}
+header #about a:hover{
+  color:#58F2E0;
+}
+header #projects a:hover{
+  color:Gray;
+}
+
+header #cult a {
+  color: #38C9BA;
+}
+header #cult a:hover{
+  color: #2D7F7E;
+}
+
+header #tech a {
+  font-size: 1.1em;
+  vertical-align: middle;
+  line-height: 110px;
+  text-decoration: none;
+  color: #EFFFF4;
+}
+
+header #tech a:hover{
+  color:#55F5F2;
+}
+
+header #home {
+  background-color: #56E3D4;
+}
+header #about {
+  background-color: #1F7D7F; /*40E5D4  FFB1DC 11524E*/
+}
+header #projects {
+  background-color: #FFB1DC;
+}
+header #tech {
+  background-color: #2ED4BD;
+}
+header #cult {
+  background-color: #1B4C4B;
+}
+
+
+
+#wrap {
+  clear: both;
+  background-color: #3AD0C1;
+  color: #153834;
+  border-bottom: 4px dotted #FFB1DC;
+}
+
+#content h1 {
+  color: #153834;
+  clear: both;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 4px dashed #FFB1DC;
+  border-bottom: 4px dotted #FFB1DC;
+  margin-bottom: 0px;
+}
+
+#both_blog {
+  display: inline-block;
+  width: 100%
+}
+
+h2 {
+  text-align: center;
+}
+
+#left {
+  width: 40%;
+  float: left;
+  padding-left: 8%;
+}
+
+#right {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 7%;
+}
+
+#content li {
+  color: #153834;
+  padding-bottom: 1%;
+}
+
+#content a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #153834;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+#content span {
+  font-size: 0.80em;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #11524E;
+  width: 100%;
+}
+
+footer img {
+  height: 35px;
+  width: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer p {
+  text-align: left;
+  font-size: 0.60em;
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: LightGray;
+  letter-spacing: 0.3px;
+}
