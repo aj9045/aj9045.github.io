@@ -9,12 +9,12 @@ header {
   width: 100%;
   background-color: #8BFFEB;
   text-align: center;
-  height:200px;
+  height: 200px;
   margin-top: 2%;
 }
 
 header #circles {
-  margin-left: -1.7%;
+  margin-left: -2%;
 }
 
 header #circles div {
@@ -26,10 +26,8 @@ header #circles div {
   width: 150px;
 }
 
-
 header a {
   font-size: 1.1em;
-  vertical-align: middle;
   line-height: 110px;
   text-decoration: none;
   color: #11524E;
@@ -78,8 +76,6 @@ header #tech {
 header #cult {
   background-color: #1B4C4B;
 }
-
-
 
 #wrap {
   clear: both;
@@ -166,3 +162,156 @@ footer p {
   color: LightGray;
   letter-spacing: 0.3px;
 }
+
+
+/*---media queries----------*/
+
+/*-----1000px--------*/
+
+@media screen and (max-width: 1000px) {
+  html, body {
+    width: 100%;
+  }
+}
+
+/*-----850px--------*/
+
+@media screen and (max-width: 850px) {
+  header {
+    height:165px;
+  }
+
+  header #circles {
+    padding-top: 0.2%;
+    margin-left: -2%;
+  }
+
+  header #circles div {
+    height: 120px;
+    width: 120px;
+  }
+
+  header a {
+    font-size: 1.1em;
+    line-height: 90px;
+  }
+
+  header #tech a {
+  font-size: 1.1em;
+  line-height: 90px;
+  }
+}
+
+/*-----700px--------*/
+
+@media screen and (max-width: 700px) {
+  header {
+    height: 160px;
+  }
+
+  header #circles {
+    margin-left: -2%;
+    padding-top: 0.8%;
+  }
+
+  header #circles div {
+    height: 110px;
+    width: 110px;
+  }
+
+  header a {
+    font-size: 1em;
+    line-height: 82px;
+  }
+
+  header #tech a {
+    font-size: 1em;
+    line-height: 82px;
+  }
+
+  footer img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+
+/*-----618px--------*/
+
+@media screen and (max-width: 618px) {
+  header {
+    height: 275px;
+  }
+
+  header #circles {
+    margin-left: -2%;
+    padding-top: 0%;
+  }
+
+  header #circles div {
+    margin-top: 2.8%;
+    height: 110px;
+    width: 110px;
+  }
+
+  #wrap {
+    margin-bottom: 5%;
+  }
+
+  #left {
+    width: 80%;
+    float: left;
+    padding-left: 9%;
+  }
+
+  #right {
+    width: 80%;
+    clear: both;
+    padding-left: 9%;
+    padding-right: 7%;
+  }
+
+  #content li {
+    color: #153834;
+    padding-bottom: 2%;
+  }
+}
+
+/*-----475px--------*/
+
+@media screen and (max-width: 475px) {
+  header {
+    height: 265px;
+  }
+
+  header #circles {
+    margin-left: -2%;
+    padding-top: 0%;
+  }
+
+  footer img {
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+}
+
+/*-----425px--------*/
+
+@media screen and (max-width: 425px) {
+  header {
+    height: 255px;
+  }
+}
+
+/*-----353px--------*/
+
+@media screen and (max-width: 353px) {
+  html {
+    min-width: 275px;
+  }
+  header {
+    height: 370px;
+  }
+
+
+  }

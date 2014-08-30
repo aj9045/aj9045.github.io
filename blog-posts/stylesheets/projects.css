@@ -68,8 +68,6 @@ header #cult {
   background-color: #EACBFF;
 }
 
-
-
 #wrap {
   background-color: #069182;
 }
@@ -139,4 +137,90 @@ footer p {
   margin-bottom: 0%;
   color: DarkSlateGray;
   letter-spacing: 0.3px;
+}
+
+/*---media queries----------*/
+
+/*-----1000px--------*/
+
+@media screen and (max-width: 1000px) {
+  html, body {
+    width: 100%;
+  }
+}
+
+/*-----850px--------*/
+
+@media screen and (max-width: 850px) {
+  header {
+    height:165px;
+  }
+
+  header div {
+    height: 120px;
+    width: 120px;
+  }
+
+  header a {
+    font-size: 1.1em;
+    line-height: 90px;
+  }
+
+  header #tech a {
+  font-size: 1.1em;
+  line-height: 90px;
+  }
+}
+
+/*-----750px--------*/
+
+@media screen and (max-width: 750px) {
+  header {
+    height:165px;
+    padding-top: 1%;
+  }
+
+  footer img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+/*-----630px--------*/
+
+@media screen and (max-width: 630px) {
+  header {
+    height:160px;
+    padding-top: 1.5%;
+  }
+
+  #wrap {
+    margin-top: 5%;
+  }
+ #content h1 {
+    padding-top: 5%;
+  }
+
+  #content ul {
+    padding-bottom: 5%;
+  }
+
+  #content li {
+
+    padding-bottom: 2%;
+  }
+}
+
+/*-----536px--------*/
+
+@media screen and (max-width: 536px) {
+  header {
+    height:280px;
+    padding-top: 1%;
+  }
+
+  footer img {
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
 }

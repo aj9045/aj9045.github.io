@@ -342,9 +342,9 @@ footer p {
 
 }
 
-/*----------930px----------*/
+/*----------938px----------*/
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 938px) {
 
   #content a{
   color: gray;
@@ -419,13 +419,6 @@ header img {
 
 @media screen and (max-width: 810px) {
 
-  #content a{
-  color: gray;
-  text-align: center;
-  font-size: 0.750em;
-  text-decoration: none;
-}
-
 header img {
   width: 100%; /*1200px*/
   height:400px;
@@ -489,11 +482,11 @@ header img {
 
 }
 
-/*----------680px----------*/
+/*----------681px----------*/
 
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 681px) {
 
   header img {
   width: 100%; /*1200px*/
@@ -501,12 +494,7 @@ header img {
 }
 
 
-   #content a{
-  color: gray;
-  text-align: center;
-  font-size: 0.80em;
-  text-decoration: none;
-}
+
   #about {
     display: inline-block;
     background-color: #0DBAB9;
