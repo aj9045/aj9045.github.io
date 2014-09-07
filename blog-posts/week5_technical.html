@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THE BLOG -- AJ Stuhrenberg</title>
+    <link rel="stylesheet" href="stylesheets/blog-stylesheet.css" type="text/css">
+  </head>
+
+  <body>
+
+    <div id="container"></div>
+
+      <div id="header">
+        <img src="images/blog_header.jpg"/>
+        <p></p>
+      </div>
+
+      <div id="nav">
+       <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">My Projects</a></li>
+          <li><a href="week5_technical.html">Technical Blog</a></li>
+          <li><a href="week5_cultural.html">Cultural Blog</a></li>
+        </ul>
+      </div>
+
+      <div id="title">
+        <p id="ctitle">Technical Blog</p>
+      </div>
+
+      <div id="contact">Contact<br>
+        <a href="mailto:stuhrenberg.aj@gmail.com">Email Me!</a>
+      </div>
+
+      <div id="pic">
+        <img src="images/supernatural_ap_tattoo.png" alt="Supernatural anti-possession tattoo/symbol"/>
+      </div>
+
+      <div id="recent">
+        <span class="ttop">Recent Posts</span><br>
+        <!--4 most recent-->
+          <ul>
+            <li><a href="week5_technical.html"><!--text-->#5 Ruby Classes: TV edition</a><span class="datesize"><!--date-->09/07/2014</span></li>
+            <li><a href="week5_cultural.html">#4 All the Feels: pairing and feedback</a><span class="datesize"><!--date-->09/05/2014</span></li>
+            <li><a href="week4_cultural.html"><!--text-->#3 #TechProbs</a><span class="datesize"><!--date-->08/31/2014</span></li>
+            <li><a href="week4_technical.html">#4 A bit about Enumerable#cycle<!--text--></a><span class="datesize"><!--date-->08/31/2014</span></li>
+          </ul>
+      </div>
+
+      <div id="archive">
+        <a href="archive.html">Archive</a>
+      </div>
+
+      <div id="tidate"><!--title-->#5 Ruby Classes: <span style="font-size: 20px;">TV edition</span>
+        <span id="date"><!--date-->09/07/2014</span>
+      </div>
+
+      <!--blog post start-->
+
+      <div id="post">
+        <p class="indent">
+          <span id="three">
+            <!--first three words-->Classes in Ruby
+          </span>
+        <!--paragraph-->
+           are a good way to organize and create a collection of methods that will only work inside that class.  We may also make objects that will work for all of these various methods within the same class called instance variables.
+        </p>
+        <p class="indent">
+          To create a class, we start with the keyword 'class' followed by the name we want to give our class.  This name follows the CamelCase convention, where the first letter of each word is uppercase, and there are no spaces between words.  Like methods, when creating a class, it must end with the 'end' keyword.
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+        class FavTVShows
+          def initialize(show_title, num_of_seasons, start_date, end_date)
+            @show_title = show_title
+            @start_date = start_date
+            @end_date = end_date
+          end
+        end
+      </pre>
+          </p>
+          <p class="indent">
+            The initialize method allows us to create a new instance of an object in the FavTVShows class.  It can also create instance variables (they start with an @ symbol) from the arguments so that we can use them throughout in other methods in the class.  We can create a new instance by simply using '.new' along with the right number of arguments needed from the initialize method.
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+        supernatural = FavTVShows.new("Supernatural", 10, 2005, "ongoing")
+      </pre>
+
+        </p>
+
+        <p class="indent">
+       <!--paragraph-->
+          After the initialize method, you will want to create other methods in order to access/change/sort/whatever information about new instances of that class.  So for example, I want to be able to access the show's name, how many seasons there are/were, the starting date, and the end date, as well as a summary of the information given.  And if the show hasn't ended yet, I want it to return "This show has not ended yet."
+    <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      class FavTVShows
+        def initialize(show_title, num_of_seasons, start_date, end_date="This show has not ended
+        yet.")
+          @show_title = show_title
+          @num_of_seasons = num_of_seasons
+          @start_date = start_date
+          @end_date = end_date
+        end
+
+        def show_title
+          @show_title
+        end
+
+        def num_of_seasons
+          @num_of_seasons
+        end
+
+        def start_date
+          @start_date
+        end
+
+        def end_date
+          @end_date.is_a?(Integer) ? @end_date : "This show has not ended yet."
+        end
+
+        def about_show
+          if @end_date.is_a?(Integer)
+            "The TV show #{@show_title} started in #{@start_date}, ended in #{@end_date}, and has
+            aired #{@num_of_seasons} season(s)."
+          else
+            "#{@show_title} is an ongoing TV series that started in #{@start_date}, and has aired
+            #{@num_of_seasons} season(s)."
+          end
+        end
+      end
+
+      </pre>
+
+        </p>
+
+        <p class="indent">
+       <!--paragraph-->
+          The show_title, start_date, and num_of_seasons methods are very simple.  They return the value of the corresponding arguments when called.  The end_date method and about_show method are a little more complicated.  For the end_date method, I used the ternary operator for the if/else statement which says if the argument for end_date is an integer, then it will return the value for end_date.  If it not, then it will return a string saying that the show hasn't ended.  For the about_show method, I put in another if/else statement in order to summarize the info about the show.  If the end_date is an integer, that means that the show must have ended.  Therefore, it will return a string with the end_date.  If it's not a string, then the string will not contain the end_date, and instead say that it's an ongoing show.
+        </p>
+
+        <p class="indent">
+       <!--paragraph-->
+          Notice I was able to use the arguments from the new instance in the other methods in the class. This is what is returned when I call each of the methods:
+
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      puts supernatural.show_title
+       #=> Supernatural
+      puts supernatural.num_of_seasons
+       #=> 10
+      puts supernatural.start_date
+       #=> 2005
+      puts supernatural.end_date
+       #=> This show has not ended yet.
+      puts supernatural.end_date
+       #=> Supernatural is an ongoing TV series that started in 2005, and has aired 10 season(s).
+      </pre
+        </p>
+
+        <p class="indent">
+        <!--paragraph--> I also set the end_date argument to a string.  The reason I did this was to have supernatural.end_date return that string if that argument wasn't included in the new instance. Notice that for this next example, I don't put in the argument for end_date.
+    <pre style="background-color:Turquoise; border: 1px solid white;">
+
+    castle = FavTVShows.new("Castle", 7, 2009)
+
+    puts castle.show_title
+     #=> Castle
+    puts castle.num_of_seasons
+     #=> 7
+    puts castle.start_date
+     #=> 2009
+    puts castle.end_date
+     #=> This show has not ended yet.
+    puts castle.about_show
+     #=> Castle is an ongoing TV series that started in 2009, and has aired 7 season(s).
+    </pre>
+        </p>
+        <p class="indent">
+          So both Castle and Supernatural are ongoing shows.  So what about a show that has ended?
+    <pre style="background-color:Turquoise; border: 1px solid white;">
+
+        psych = FavTVShows.new("Psych", 8, 2006, 2014)
+
+        puts psych.show_title
+         #=> Psych
+        puts psych.num_of_seasons
+         #=> 8
+        puts psych.start_date
+         #=> 2006
+        puts psych.end_date
+         #=> 2014
+        puts psych.about_show
+         #=> The TV show Psych started in 2006, ended in 2014, and has aired 8 season(s).
+
+    </pre>
+        </p>
+        <p class="indent">
+          Because I have created this class, I can add Leverage and Breakout Kings and Lost Girl--I can acutally add as many new objects to the FavTVShows class that I want without having to use repetitive and unnecessary code.  Pretty cool, huh?
+        </p>
+      </div>
+
+      <div id="buttons">
+        <span id="1">
+            <a href="#">Newer</a>
+        </span>
+        <span id="2">
+            <a href="week4_technical.html">Older</a>
+        </span>
+      </div>
+
+      <!--blog post end-->
+
+      <!--
+
+      hover over anchor with mouse and get a picture!
+
+      <a class="photo"><img src="#" class="hover"> TEXT HERE SAYING WHAT IT IS </a>.  -->
+
+      <div id="footer">
+        <span class="ttop">Connect With Me</span><br><br>
+          <div id="links">
+            <a href="https://github.com/aj9045">GitHub</a>
+            <a href="http://www.quora.com/AJ-Stuhrenberg">Quora</a>
+            <a href="https://twitter.com/aj9045">Twitter</a>
+            <a href="https://www.facebook.com/aj9045">Facebook</a>
+            <a href="https://www.linkedin.com/in/ajstuhrenberg">LinkedIn</a>
+          </div>
+      </div>
+
+      <div id="copyright">
+        Copyright&copy; 2014 <strong>AJ Stuhrenberg</strong>
+      </div>
+    </div>
+  </body>
+</html>
