@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THE BLOG -- AJ Stuhrenberg</title>
+    <link rel="stylesheet" href="stylesheets/blog-stylesheet.css" type="text/css">
+  </head>
+
+  <body>
+
+    <div id="container"></div>
+
+      <div id="header">
+        <img src="images/blog_header.jpg"/>
+        <p></p>
+      </div>
+
+      <div id="nav">
+       <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">My Projects</a></li>
+          <li><a href="week6_technical.html">Technical Blog</a></li>
+          <li><a href="week6_cultural.html">Cultural Blog</a></li>
+        </ul>
+      </div>
+
+      <div id="title">
+        <p id="ctitle">Technical Blog</p>
+      </div>
+
+      <div id="contact">Contact<br>
+        <a href="mailto:stuhrenberg.aj@gmail.com">Email Me!</a>
+      </div>
+
+      <div id="pic">
+        <img src="images/kitten.png" alt="fluffy white kitten"/> <!--image from http://www.stockvault.net/photo/116981/white-kitten -->
+      </div>
+
+      <div id="recent">
+        <span class="ttop">Recent Posts</span><br>
+        <!--4 most recent-->
+          <ul>
+            <li><a href="week6_cultural.html"><!--text-->#5 Stereotype Threat</a><span class="datesize"><!--date-->09/14/2014</span></li>
+            <li><a href="week6_technical.html">#6 Instance Methods? Class Methods?<!--text--></a><span class="datesize"><!--date-->09/14/2014</span></li>
+            <li><a href="week5_technical.html"><!--text-->#5 Ruby Classes: TV edition</a><span class="datesize"><!--date-->09/07/2014</span></li>
+            <li><a href="week5_cultural.html">#4 All the Feels: pairing and feedback</a><span class="datesize"><!--date-->09/05/2014</span></li>
+          </ul>
+      </div>
+
+      <div id="archive">
+        <a href="archive.html">Archive</a>
+      </div>
+
+      <div id="tidate"><!--title-->#6 Instance Methods? Class Methods?
+        <span id="date" style="margin-left: 250px;"><!--date-->09/14/2014</span>
+      </div>
+
+      <!--blog post start-->
+
+      <div id="post">
+        <p class="indent">
+          <span id="three">
+            <!--first three words-->In an earlier
+          </span>
+        <!--paragraph-->
+           post, I talked a bit about <a href="week5_technical.html">classes in Ruby</a>.  And now I'm going to talk about instance methods and class methods.
+        </p>
+        <p class="indent">
+          Classes are great for organizing and collecting objects.  These objects can include instance methods (instances of a class), which just means methods inside classes.  They function in a similar way as methods outside of a class, except they will only work on objects of the class they are in. For example:
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      class Cat
+        def initialize(breed, name)
+          @breed = breed
+          @name = name
+        end
+
+        def list
+          "#{@breed} -- #{@name}"
+        end
+      end
+
+      lola = Cat.new("Ragdoll", "Lola")
+
+      puts lola.list
+        #=> Ragdoll -- Lola
+      </pre>
+        </p>
+
+
+        <p class="indent">
+       <!--paragraph-->
+          Notice that the method 'list' works with the new Cat object 'lola' because that method exists within the Cat class.
+        </p>
+
+
+        <p class="indent">
+        <!--paragraph-->
+          Also, you may have noticed the initialize method.  This is one of Ruby's built-in instance methods that runs every time a new object of that class is created. So in this case, once 'lola' was created, instance variables for both arguments were made in order to be used with the other instance methods.
+        </p>
+
+        <p class="indent">
+        <!--paragraph-->
+          Class methods are different than instance methods because they are called on a class, not an instance of a class.  Here we can see the difference between the two, as a class method will use either the class name or 'self.'
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      class Cat
+        def self.name(name)
+          puts name
+        end
+
+        def breed(breed)
+          puts breed
+        end
+      end
+
+      puts Cat.name("Lola")
+        #=> Lola
+      puts Cat.breed("Ragdoll")
+        #=>undefined method `breed' for Cat:Class (NoMethodError) Lola
+            </pre>
+        </p>
+
+        <p class="indent">
+        <!--paragraph-->
+          You might have noticed that the instance method 'breed' is in the Cat class. Because the method 'breed' is not a class method, calling it on the class will not work. However, the opposite will happen if we try to create a new object for the Cat class.
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      class Cat
+        def self.name(name)
+          puts name
+        end
+
+        def breed(breed)
+          puts breed
+        end
+      end
+
+      puts Cat.new.name("Lola")
+        #=> undefined method `name' for #<Cat:0x007fec598aa848> (NoMethodError)
+      puts Cat.new.breed("Ragdoll")
+        #=> Ragdoll
+      </pre>
+        </p>
+        </p>
+
+        <p class="indent">
+        <!--paragraph-->
+          So when would you use a class method?  Here's an example, where this class method ('count') tells you information about the class objects (how many have been created).
+      <pre style="background-color:Turquoise; border: 1px solid white;">
+
+      class Cat
+        @@count = 0
+
+        def initialize(breed, name)
+          @breed = breed
+          @name = name
+          @@count += 1
+        end
+
+        def list
+          "#{@breed} -- #{@name}"
+        end
+
+        def self.count
+          p @@count
+        end
+      end
+
+      lola = Cat.new("ragdoll", "lola")
+      dakota = Cat.new("savannah cat", "dakota")
+
+      Cat.count
+        #=> 2
+      </pre>
+        </p>
+
+        <p class="indent">
+        <!--paragraph-->
+          The class Cat is an object (like most everything in Ruby), and therefore, it gets its own methods to look across itself, which is made up of multiple instances.  This is why a class method is used instead of an instance method to count all new instances of the class.
+        </p>
+      </div>
+
+      <div id="buttons">
+        <span id="1">
+            <a href="#">Newer</a>
+        </span>
+        <span id="2">
+            <a href="week5_technical.html">Older</a>
+        </span>
+      </div>
+
+      <!--blog post end-->
+
+      <!--
+
+      hover over anchor with mouse and get a picture!
+
+      <a class="photo"><img src="#" class="hover"> TEXT HERE SAYING WHAT IT IS </a>.  -->
+
+      <div id="footer">
+        <span class="ttop">Connect With Me</span><br><br>
+          <div id="links">
+            <a href="https://github.com/aj9045">GitHub</a>
+            <a href="http://www.quora.com/AJ-Stuhrenberg">Quora</a>
+            <a href="https://twitter.com/aj9045">Twitter</a>
+            <a href="https://www.facebook.com/aj9045">Facebook</a>
+            <a href="https://www.linkedin.com/in/ajstuhrenberg">LinkedIn</a>
+          </div>
+      </div>
+
+      <div id="copyright">
+        Copyright&copy; 2014 <strong>AJ Stuhrenberg</strong>
+      </div>
+    </div>
+  </body>
+</html>
