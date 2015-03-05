@@ -25,9 +25,23 @@ baseurl: ""
 # social icons and sharing options
 social:
 
+  - icon: envelope-o
+    url:  mailto:stuhrenberg.aj@gmail.com
+    desc: Here's my email address
+    share_url:
+    share_title:
+    share_link:
+
   - icon: github
     url:  https://github.com/aj9045
     desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: linkedin
+    url:  https://linkedin.com/in/ajstuhrenberg
+    desc: I'm on LinkedIn
     share_url:
     share_title:
     share_link:
