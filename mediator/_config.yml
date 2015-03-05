@@ -24,6 +24,14 @@ baseurl: ""
 
 # social icons and sharing options
 social:
+
+  - icon: github
+    url:  https://github.com/aj9045
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
   - icon:	twitter
     url:	https://twitter.com/aj9045
     desc: Follow me on twitter
@@ -31,19 +39,14 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
+
+
 #  - icon:	facebook
 #    url:	https://facebook.com/???
 #    desc: Connect with me facebook
 #    share_url: //www.facebook.com/sharer.php
 #    share_title: ?t=
 #    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/aj9045
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
 
 #  - icon:	google-plus
 #    url:	https://google.com/???
