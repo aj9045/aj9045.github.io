@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Chef's Kitchen"
+date:   2014-08-20
+categories: jekyll update
+<!-- tags: featured -->
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+---
+
+Based on the video Shareef's Fireside Chat), I can say that I totally see where he's coming from.  I had no idea what I was going to do after I graduated form college, and I knew I didn't want to go into a field dealing with what I majored or minored in.  I don't reall yhave a passion, but when I picked up Codecademy's HTML/CSS tutorial, I thought it was fun, and really that's all it took.  When I found Dev Bootcamp, it <em>did</em> seem like the whole package.  I was looking at it based on the "restaurant" mindset, where you order, you get you services/goods, you pay, you say thanks, and you're on your way.  I knew it would be difficult, but it seemed like the smart thing to do if I was at all interested.
+
+The more I read up on DBC, though, the more my mind started to change.  It didn't change that I wanted to go to DBC and learn all that I could, no, it was that I was thinking about it more as an experience, a chance to learn and grow alongside others who share an interest in something I liked.  This new type of thinking was the "kitchen" mentality: we're all here to work hard, learn as much as we can, lift each other up, brush each other off when we fall.  Instead of consumer mode, I was now in creative mode.  Of course, it's not like my mentality has <em>completely</em> changed, but it's mostly in the kitchen.  Shareef makes a good point that because of the society and time we live in, we are conditioned to step into the restaurant.  It's a hard habit to break, but I think I'm on my way.  While getting a job is my ultimate goal, I realize now that DBC isn't going to get me a job.  <em>I</em> am going to get myself a job.  From what I gather, this won't  get me that high-paying job right away (no previous experience here), but it <em>will</em> set me up to be a better person, be a better me, and learn more about myself than I probably want to know.  Learning new concepts will be easier when I get the gist of the basics as well as when I understand my own learning process.
+
+I'm really looking forward to my journey (it's already started!).  On one hand, I am ready to go meet new people and share ideas--I like working in a group--yet, at the same time, I'm kind of terrified.  This is a whole new experience, form living in NYC (I've only been there once), to living entirely alone (no parents, no college life, I mean), to learning someone completely foreign, to working in an environment where we aren't strapped down by grades and GPA expectations.  I can already tell it's going to be very different from the years of schooling I've already have, and while I'm nervous and anxious, I'm also excited!
