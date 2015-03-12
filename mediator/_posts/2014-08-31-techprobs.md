@@ -3,7 +3,7 @@ layout: post
 title:  "#TechProbs"
 date:   2014-08-31
 categories: jekyll update
-<!-- tags: featured -->
+tags: cultural
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 

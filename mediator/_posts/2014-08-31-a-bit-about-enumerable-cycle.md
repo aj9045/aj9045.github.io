@@ -3,7 +3,7 @@ layout: post
 title:  "A bit about Enumerable#cycle"
 date:   2014-08-31
 categories: jekyll update
-<!-- tags: featured -->
+tags: technical
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 

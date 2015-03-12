@@ -3,7 +3,7 @@ layout: post
 title:  "My Three Favorite Websites"
 date:   2014-08-10
 categories: jekyll update
-<!-- tags: featured -->
+tags: technical
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 

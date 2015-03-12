@@ -3,7 +3,7 @@ layout: post
 title:  "Ruby Classes: TV Edition"
 date:   2014-09-07
 categories: jekyll update
-<!-- tags: featured -->
+tags: technical
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Dealing with Conflict"
 date:   2014-09-28
 categories: jekyll update
-<!-- tags: featured -->
+tags: cultural
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 
