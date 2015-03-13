@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "#TechProbs"
+date:   2014-08-31
+categories: jekyll update
+tags: cultural
+image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+---
+
+So what is a problem that the tech industry is currently facing?  Well, for starters, diversity. CNNMoney put together [an interactive chart](http://money.cnn.com/interactive/technology/tech-diversity-data/") that gives you a quick look at 5 top tech companies and their diversity based on gender and race.  Of course, this isn't a complete survey because it only focuses on two genders and throws anyone who doesn't fit into their race categories into "other," but at least it gives a good glimpse into the lack of diversity.  It also covers the different positions in the workforce.  While it may look like Asian men are doing better than the rest (not better than white men, of course), you can see where this is not the case.  The next step above the professional workforce is mid-level officer/manager and then officer/manager, and there, the numbers are much lower.  Minorities are not only underrepresented in the tech world, but also even more so in the higher positions in the industry.
+
+Women are even more underrepresented in the tech industry--around 20%. The tech world has become dominated by men, and the culture tends to be rather sexist and misogynistic.  We live in a world where "you did well, for a girl" is the norm, and where sexual harassment and crude jokes are made at the expense of women.  "Get back in the kitchen" jokes are not funny.  "Go make me a sandwich" jokes are not funny.  And rape jokes are not funny.  Period.  Yet, it goes on.  Women should not have to be afraid to enter a certain industry because of harassment, and they should not feel so uncomfortable from rude remarks and unwanted advances that they feel they have to quit their job (for more on this click [here](href="http://www.nytimes.com/2014/04/06/technology/technologys-man-problem.html?_r=0")).  I don't identify as a woman, but because most people misgender me I'm worried that this is what awaits me.
+
+One of the problems is that many of us don't recognize our privilege.  Privilege is not necessarily a bad thing, and you shouldn't feel ashamed for being able to take something like not being accused of being moody because of "that time of the month" or not being passed up for a promotion because you're a person of color.  Even I, as a gender non-conforming person of color, have privilege: I've graduated from college and I'm not in debt.  The point is to recognize that you have privilege, and recognize when that privilege comes into play.
+
+And on that same note, empathy is very important.  Whether it's empathy for someone losing their favorite socks, to deciding not to make a crude joke at the expense of someone else's feelings or experiences, it's time to take charge and step it up. Empathy is one of the most important skills you can have as a person. Think before you do or say something that might make someone feel uncomfortable or threatened, and really try to understand why someone might feel that way if you did/said what you were thinking.  Basically, don't be an ass.
+
+However, there's so much more to this issue than not being a jerk, but there is no real quick fix.  We all are really going to have to make an effort in order to change the sexist and misogynistic culture that has consumed much of the tech industry in order to create a place where everyone feels welcome.

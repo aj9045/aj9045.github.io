@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copacetic</title>
+    <description>A Jekyll theme - Medium inspired
+</description>
+    <link>http://aj9045.github.io/</link>
+    <atom:link href="http://aj9045.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 13 Mar 2015 16:53:15 -0400</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2015 16:53:15 -0400</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Mediator Features</title>
+        <description>&lt;h1&gt;Mediator Formats and CSS features&lt;/h1&gt;
+
+&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
+
+&lt;h1&gt;Header Formats&lt;/h1&gt;
+
+&lt;h1&gt;Header1&lt;/h1&gt;
+
+&lt;h2&gt;Header2&lt;/h2&gt;
+
+&lt;h1&gt;Blockquotes&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Lists&lt;/h1&gt;
+
+&lt;h2&gt;orderd lists&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;li&gt;two&lt;/li&gt;
+&lt;li&gt;three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;unorderd lists&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;li&gt;Plum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Combinations&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;li&gt;Plum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 09:34:25 -0500</pubDate>
+        <link>http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>The Q&#39;s and the A&#39;s</title>
+        <description>&lt;p&gt;Asking questions can be a really useful tool to further understanding or to fix a problem.  However, it&amp;#39;s only useful if you get the correct answer.  And to do that, you must ask good questions.  Whether specifically  asking questions online or to someone else, it&amp;#39;s important to be concise.  So here are a few tips about asking good questions:&lt;/p&gt;
+
+&lt;p&gt;-First, have you tried searching for the answer to your question?  If not, go ahead and do that first,  If you haven&amp;#39;t been able to fond the answer, then go ahead and ask.&lt;/p&gt;
+
+&lt;p&gt;-If online, the title stating the question is very important.  It should be specific, yet brief, and should give most all of the necessary information needed to answer it.  For example, from a &lt;a href=&quot;http://stackoverflow.com/help/how-to-ask%22&quot;&gt;stackoverflow article&lt;/a&gt;, this title is not helpful: &amp;quot;C# Math Confusion.&amp;quot; A much better question to ask would be &amp;quot;Why does using float instead of int give me different results when all of my inputs are integers?&amp;quot; You should be able to sum up your question into a sentence.&lt;/p&gt;
+
+&lt;p&gt;-Add to the body of the question with specific details, including sample code so that your problem can be reproduced, and hopefully fixed, by those answering your question.&lt;/p&gt;
+
+&lt;p&gt;-Make sure your grammar, spelling, and punctuation are readable.  You want to be taken seriously, and it&amp;#39;s just harder to read when there are misspelled words everywhere, or there&amp;#39;s a paragraph with no punctuation.&lt;/p&gt;
+
+&lt;p&gt;-Also, be patient and polite.  Sometimes, us humans read something and think it says/means one thing when it really said/meant another.&lt;/p&gt;
+
+&lt;p&gt;Basically, if you want a good answer, you have to ask a good question.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Oct 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/10/05/the-qs-and-the-as.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/10/05/the-qs-and-the-as.html</guid>
+        
+        <category>cultural</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>What is Rails?</title>
+        <description>&lt;p&gt;Coming into Dev Bootcamp, I knew we&amp;#39;d be learning Ruby on Rails.  I said that with confidence, but I really had no idea what Ruby on Rails was.&lt;/p&gt;
+
+&lt;p&gt;We should first start with a quick definition of Ruby.  Ruby is a programming language, most known for its use in web development.  It focuses on simplicity and productivity, and easy to read syntax.&lt;/p&gt;
+
+&lt;p&gt;Ruby on Rails, also known as &amp;quot;Rails&amp;quot; or &amp;quot;RoR&amp;quot;, is an open source framework for Web development in Ruby.  Open source means that it is a piece of software that anyone can use and change as they see fit.  Rails is kind of like an add on to Ruby, that extends its functions and gives Ruby new abilities. And in turn, you can &amp;quot;add on&amp;quot; to Rails with Ruby gems.&lt;/p&gt;
+
+&lt;p&gt;So why should we use Ruby on Rails?  Well, for starters, it&amp;#39;s great for simplifying code and keeping it DRY, which stands for &amp;quot;Don&amp;#39;t Repeat Yourself.&amp;quot; Rails is used to build web apps by combining Ruby with HTML, CSS, and JavaScript. It uses conventions, or established rules, to do this by making it easier and less work for the developer.&lt;/p&gt;
+
+&lt;p&gt;The Ruby on Rails community is pretty popular, and it&amp;#39;s opens source, so there is a lot of information online to get you started and keep you going, including free courses and tutorials.  It&amp;#39;s also considered a relatively easy language to learn, and because it&amp;#39;s full-stack, if you start out with Rails, you&amp;#39;ll learn a bit of HTML, CSS, JavaScript, and Ruby along the way.  Complex websites are easily implemented with Rails, which can be great for startups and general creativity.&lt;/p&gt;
+
+&lt;p&gt;So far I&amp;#39;ve learned a bit of HTML/CSS, Ruby, JavaScript, and I&amp;#39;m looking forward to creating something with a little of all of these using Rails.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/28/what-is-rails.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/28/what-is-rails.html</guid>
+        
+        <category>technical</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Dealing with Conflict</title>
+        <description>&lt;p&gt;This right here is Dr. Nathanson&amp;#39;s &lt;a href=&quot;http://southdown.on.ca/publications/articles/Compass-of-Shame.pdf%22%3ECompass%20of%20Shame&quot;&gt;Compass of Shame&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/compass_of_shame.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;What is the Compass of Shame?  It is a compass that points to four different ways that people tend to deal with shame and conflict.  N, E, S, W is Withdrawal, Attack Self, Avoidance, and Attack Other, respectively.  How do you usually react?  Despite the name, there&amp;#39;s no shame in admitting that you usually favor one of these coping behaviors.  However, it is important to recognize that this might be how you respond in these situations.  It is then easier to gauge what will be a more effective way to handle the threat than what you would have done by nature to begin with.&lt;/p&gt;
+
+&lt;p&gt;On that note, I will talk about a time I had an emotional conflict with someone (in this case with an institution), how I handled it, and what I can learn from it.&lt;/p&gt;
+
+&lt;p&gt;--&lt;strong&gt;What was the conflict?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I graduated from college this past May.  With graduation comes the diploma.  Since I entered college, I have gone by &amp;quot;AJ.&amp;quot;  It&amp;#39;s my name.  So when I filled out the form for the diploma, I wrote &amp;quot;AJ Stuhrenberg&amp;quot; even though under the name line is said that most people usually use their full name, including a middle name if they have one.  I obviously read that bit (it was hard to miss), and had chosen otherwise.  I week later I get an email confirming that that&amp;#39;s what I want on my diploma, like I was just messing around when I had filled out the form.  That annoyed me.  But I just replied, &amp;quot;yes,&amp;quot; and it was fine.&lt;/p&gt;
+
+&lt;p&gt;A couple months later I graduated.  I walked across the stage and too my diploma.  After the ceremony I met up with my parents.  I opened the diploma, and my name was wrong.  They had put my legal first name.  So not only had I told them what I wanted on my diploma, but I confirmed it as well; yet, here they were handing me this.&lt;/p&gt;
+
+&lt;p&gt;--&lt;strong&gt;How did you handle that conflict?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I ranted to my parents, but I didn&amp;#39;t really do anything because we had to leave (16 hour drive back home).  But when I got home.  I wrote an email to whoever I had turned the form in to.  They emailed me back, and then someone else emailed me back.  They said my legal first name HAD to be on the diploma.  If that&amp;#39;s the case, then why the hell did they give me the choice in the first place?  So I replied with a strongly worded email.&lt;/p&gt;
+
+&lt;p&gt;--&lt;strong&gt;If you could go back, what would you do differently, if anything? And what did you learn from this experience?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case, I don&amp;#39;t think I would have done anything differently only because 1. I graduated, and hopefully I&amp;#39;ll never have to go back there, and 2. it wasn&amp;#39;t going to get fixed anyway so I might as well tell them that I was upset. It didn&amp;#39;t help, but it didn&amp;#39;t not help since the conversation was pretty much over by the time I interjected.&lt;/p&gt;
+
+&lt;p&gt;But in general, I really try to refrain from replying to emails or texts or written anything when I&amp;#39;m angry or upset.  Why?  Because I usually come off as sarcastic and mean.  And while sometimes it may make me feel better, it doesn&amp;#39;t necessarily help the situation at all.&lt;/p&gt;
+
+&lt;p&gt;In personal confrontations, I usually bite my tongue, just ignore the threat, and cool down by myself.  I&amp;#39;ve learned that many times after I calm down whether it be an hour later or a day later, it&amp;#39;s best to talk about it with the other person if I really felt that strongly about whatever it was we had a conflict about.  I find that to be helpful so there&amp;#39;s no pent up resentment or lingering negative feelings.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/28/dealing-with-conflict.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/28/dealing-with-conflict.html</guid>
+        
+        <category>cultural</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Valuing Values</title>
+        <description>&lt;p&gt;There are certain values that are more important to me than others.  It took me a good few minutes to come up with them, as I had to think back and see how they took part in my life.&lt;/p&gt;
+
+&lt;p&gt;Accomplishment, Close Relationships, Compassion, Cooperation, Creativity, Growth, Honesty, Inspiration, Meaningful Work, Respect&lt;/p&gt;
+
+&lt;p&gt;These values are those that I care about most.&lt;/p&gt;
+
+&lt;p&gt;All of these are pretty important to me. The most important, however, would probably be inspiration.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve been struggling, for lack of a better word, with depression for years, and inspiration is what gets me up in the morning (I am also really not a morning person).  Whether is inspiration to clean my room, take a walk, get work done, or whatever, it&amp;#39;s something I need.  I honestly wouldn&amp;#39;t be able to get out of bed without some sort of inspiration, and some days, it&amp;#39;s very hard to find any.&lt;/p&gt;
+
+&lt;p&gt;I think that meaningful work, also falls into a similar category.  Inspiration to do meaningful work.  And what I&amp;#39;ve found, that has helped me a bit, is that meaningful work to you might be completely different to someone else&amp;#39;s meaningful work.  Someone else might not find writing a poem productive because it&amp;#39;s not &lt;em&gt;work&lt;/em&gt; work, but if you&amp;#39;re the one doing it and you feel it benefits you, then why can&amp;#39;t it be meaningful?&lt;/p&gt;
+
+&lt;p&gt;I was asked to rate the list of values I previously chose as the  most important.  In general, I try to live up to these values, from 1 (disagree) to 5 (agree).  However, I&amp;#39;m a little unsure as to how the statement was worded.  &amp;quot;I try to live up to these values.&amp;quot;  I think I would put 5 for most all of them.  For the values we value most, shouldn&amp;#39;t we be striving to live up to them?&lt;/p&gt;
+
+&lt;p&gt;I was also asked what the last topic that someone asked for your advice on.  My parents were packing for a trip and my dad asked whether or not his shirts and pants went together.  The advice I gave wasn&amp;#39;t spectacular, but it was honest, and that&amp;#39;s what was needed.  And I really value the close relationship we have because I&amp;#39;m able to say, &amp;quot;no, that looks bad--try the shirt with those pants instead,&amp;quot; knowing that my suggestion was respected whether or not he took it or not. And that&amp;#39;s about a third of my most important values list right there.&lt;/p&gt;
+
+&lt;p&gt;I talked about stereotype threat in a previous blog post.  And when I think about these values, I think that when/if I do recognize I feel stereotype threat, I can use them to my advantage.  As I said previously, I&amp;#39;m not very aware of stereotype threat&amp;#39;s effect on me.  That might just be because I just don&amp;#39;t pay attention, or it&amp;#39;s subconscious.&lt;/p&gt;
+
+&lt;p&gt;I was talking with my dad once, and he pointed out that I&amp;#39;m rather introspective.  I hadn&amp;#39;t really thought about that before, but I realized that was very true.  And that can be both a good and bad thing.  I think now that I know that stereotype threat is actually a real thing, I&amp;#39;ll be able first, identify when I feel it, and second, be able to alleviate it with my values.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/21/valuing-values.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/21/valuing-values.html</guid>
+        
+        <category>cultural</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>SQL Injection--It Hurts</title>
+        <description>&lt;p&gt;So, what about this SQL injection?  Is it as painful as it sounds?  Well, yes.  It is a technique of inserting SQL statements into an entry field to maliciously gain access to content that was not intended for the attacker.  It is an unfortunate vulnerability of SQL.&lt;/p&gt;
+
+&lt;p&gt;Say I have an Netflix account (I do, and it&amp;#39;s great, by the way).  In order to sign in, I must input my email and password. That information is submitted into the database, and if the email/password combination is valid, then I am able to access my account and the content that comes with it.&lt;/p&gt;
+
+&lt;p&gt;With SQL injection, though, someone could write malicious code into one of those input fields to gain access to and steal data. Not only is this bad because sensitive information might be taken, but the attacked database may also be at risk for changes or modifications by the attacker, like dropping an entire table!&lt;/p&gt;
+
+&lt;p&gt;here are a few things you can do to prevent SQL injection.  One is prepared statements (or parameterized queries).  These statements make the developer define all of the SQL code and then passing in each parameter to the query.  This lets the database differentiate between the code and th data.&lt;/p&gt;
+
+&lt;p&gt;Another defense is stored procedure, which is stored code that you can use over and over again.  This is helpful because it&amp;#39;s stored instead of having a user input anything.&lt;/p&gt;
+
+&lt;p&gt;A third defense is escaping all user supplied data, because if you escape all user supplied input, then the database won&amp;#39;t think any input is the code.&lt;/p&gt;
+
+&lt;p&gt;There are more ways to prevent SQL injection, but these are the primary defenses.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts.html</guid>
+        
+        <category>technical</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Stereotype Threat</title>
+        <description>&lt;p&gt;I learned something new the other day.  Stereotype threat.  I hadn&amp;#39;t heard of it before, but it makes a lot of sense. But first, what is a stereotype?  From the Merriam Webster dictionary, a &lt;a href=&quot;http://www.merriam-webster.com/dictionary/stereotype%22&quot;&gt;stereotype&lt;/a&gt; is &amp;quot;a standardized mental picture that is held in common by members of a group and that represents an oversimplified opinion, prejudiced attitude, or uncritical judgment.&amp;quot; Saying that someone must not be able to dance because they are white is a stereotype. And most stereotypes are negative or hurtful.  Even if a certain stereotype is true for one particular person, to insult someone based on some preconceived assumption does not help anyone.&lt;/p&gt;
+
+&lt;p&gt;So what is stereotype threat exactly? Stereotype threat is when a person feels fear or anxiety (consciously or unconsciously) when they believe they might confirm a negative stereotype due to belonging to a certain social group.  This anxiety leads to performing negatively at certain tasks, creating a self-fulfilling prophecy.  And because every group can be stereotyped, whether based on an ethnicity, race, gender, profession, anyone can experience stereotype threat, though minorities deal with it more often.&lt;/p&gt;
+
+&lt;p&gt;One &lt;a href=&quot;http://www.leedsmet.ac.uk/carnegie/learning_resources/LAW_PGCHE/SteeleandQuinnStereotypeThreat.pdf%22&quot;&gt;noted experiment&lt;/a&gt; gave a group of women and a group of men the same difficult math test separately.  These candidates were all tested beforehand to make sure their mathematical abilities were about the same, so they should all perform at about the same level.  One test group of women was told that this difficult math test was testing the gender difference in mathematical ability. When their tests were scored and compared to the mens&amp;#39; tests, they did much worse.  However, a second test group of women took the same math test, and beforehand, they were told that they may have heard that women didn&amp;#39;t perform as well as men on math tests, but that didn&amp;#39;t count for this math test.  This test would put them on the same playing field.  And this time when their test scored were compared with the mens&amp;#39; tests, they did just as well as the men.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/st_graph.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Other experiments have been done that continue to confirm that stereotype threat is a real situational predicament, and it has been increasingly written about, studied, and talked about in academia.&lt;/p&gt;
+
+&lt;p&gt;People have assumed a lot of different things about me--because I have tan skin I must be half black and half white, Mexican, Native American, Indian, Israeli (I really don&amp;#39;t know where they&amp;#39;re getting these from)--but to be honest, I never really felt they were necessarily negative. I&amp;#39;m tired of people assuming things about me when they are most always wrong, but I don&amp;#39;t feel like it&amp;#39;s really making me &amp;quot;perform&amp;quot; badly.  Or maybe I just haven&amp;#39;t come across those situations yet.  At the same time, I can see how if may and does affect others in certain situations, like at school or work, who have specific negative stereotypes attached to their identity.&lt;/p&gt;
+
+&lt;p&gt;In order to combat stereotype threat, we need to build a sense of identity safety in different settings. To feel safe, a person must trust that they&amp;#39;re not going to be exposed to negative experiences based on their identity. We need people to feel safe enough to function and thrive without the pressures negative stereotypes. And while stereotypes are an ever prevalent part of society, and they&amp;#39;re not likely to go away anytime soon, the best way to reduce their impact is to just recognize that they exist and recognize when you are stereotyping.  When you find that you are, take a moment to assess why and make the effort to really show that you value different people and the identities they are connected to.  And this is a collective effort. It&amp;#39;s up to me, to you, to all of us, to create safe spaces where people don&amp;#39;t have have to feel burdened or weighed down by their own identities.&lt;/p&gt;
+
+&lt;p&gt;I also want to mention that feeling safe should not be seen as a privilege, but a right.  This is similar to using someone&amp;#39;s preferred name or pronouns.  You don&amp;#39;t earn a trophy for respecting them and their identity.  It just means you&amp;#39;re a decent human being.  So why don&amp;#39;t we all practice being decent human beings?  A lot of the things we&amp;#39;re trying to overcome here are being perpetuated by the society we live in, starting at the moment you&amp;#39;re born.  That makes those ideas hard to change, but we can all make an effort.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/14/stereotype-threat.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/14/stereotype-threat.html</guid>
+        
+        <category>cultural</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Instance Methods? Class Methods?</title>
+        <description>&lt;p&gt;In an earlier post, I talked a bit about classes in Ruby.  And now I&amp;#39;m going to talk about instance methods and class methods.&lt;/p&gt;
+
+&lt;p&gt;Classes are great for organizing and collecting objects.  These objects can include instance methods (instances of a class), which just means methods inside classes.  They function in a similar way as methods outside of a class, except they will only work on objects of the class they are in. For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@breed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;list&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@breed&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; -- &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;lola&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Ragdoll&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Lola&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lola&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Ragdoll -- Lola&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice that the method &amp;#39;list&amp;#39; works with the new Cat object &amp;#39;lola&amp;#39; because that method exists within the Cat class.&lt;/p&gt;
+
+&lt;p&gt;Also, you may have noticed the initialize method.  This is one of Ruby&amp;#39;s built-in instance methods that runs every time a new object of that class is created. So in this case, once &amp;#39;lola&amp;#39; was created, instance variables for both arguments were made in order to be used with the other instance methods.&lt;/p&gt;
+
+&lt;p&gt;Class methods are different than instance methods because they are called on a class, not an instance of a class.  Here we can see the difference between the two, as a class method will use either the class name or &amp;#39;self.&amp;#39;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Lola&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Lola&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Ragdoll&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;undefined method `breed&amp;#39; for Cat:Class (NoMethodError) Lola&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You might have noticed that the instance method &amp;#39;breed&amp;#39; is in the Cat class. Because the method &amp;#39;breed&amp;#39; is not a class method, calling it on the class will not work. However, the opposite will happen if we try to create a new object for the Cat class.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Lola&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; undefined method `name&amp;#39; for #&amp;lt;Cat:0x007fec598aa848&amp;gt; (NoMethodError)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Ragdoll&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Ragdoll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So when would you use a class method?  Here&amp;#39;s an example, where this class method (&amp;#39;count&amp;#39;) tells you information about the class objects (how many have been created).&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt;
+    &lt;span class=&quot;vc&quot;&gt;@@count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@breed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;breed&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+      &lt;span class=&quot;vc&quot;&gt;@@count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;list&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@breed&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; -- &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;count&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;vc&quot;&gt;@@count&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;lola&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;ragdoll&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;lola&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;dakota&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;savannah cat&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;dakota&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The class Cat is an object (like most everything in Ruby), and therefore, it gets its own methods to look across itself, which is made up of multiple instances.  This is why a class method is used instead of an instance method to count all new instances of the class.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/14/instance-methods-class-methods.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/14/instance-methods-class-methods.html</guid>
+        
+        <category>technical</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Ruby Classes: TV Edition</title>
+        <description>&lt;p&gt;Classes in Ruby are a good way to organize and create a collection of methods that will only work inside that class.  We may also make objects that will work for all of these various methods within the same class called instance variables.&lt;/p&gt;
+
+&lt;p&gt;To create a class, we start with the keyword &amp;#39;class&amp;#39; followed by the name we want to give our class.  This name follows the CamelCase convention, where the first letter of each word is uppercase, and there are no spaces between words.  Like methods, when creating a class, it must end with the &amp;#39;end&amp;#39; keyword.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FavTVShows&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@show_title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@start_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The initialize method allows us to create a new instance of an object in the FavTVShows class.  It can also create instance variables (they start with an @ symbol) from the arguments so that we can use them throughout in other methods in the class.  We can create a new instance by simply using &amp;#39;.new&amp;#39; along with the right number of arguments needed from the initialize method.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;FavTVShows&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Supernatural&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2005&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;ongoing&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After the initialize method, you will want to create other methods in order to access/change/sort/whatever information about new instances of that class.  So for example, I want to be able to access the show&amp;#39;s name, how many seasons there are/were, the starting date, and the end date, as well as a summary of the information given.  And if the show hasn&amp;#39;t ended yet, I want it to return &amp;quot;This show has not ended yet.&amp;quot;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FavTVShows&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;This show has not ended&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;  yet.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@show_title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@num_of_seasons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@start_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show_title&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@show_title&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;num_of_seasons&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@num_of_seasons&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;start_date&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@start_date&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;end_date&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_a?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;This show has not ended yet.&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;about_show&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_a?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;The TV show &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@show_title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; started in &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@start_date&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, ended in &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@end_date&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, and has&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;      aired &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@num_of_seasons&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; season(s).&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@show_title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is an ongoing TV series that started in &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@start_date&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, and has aired&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@num_of_seasons&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; season(s).&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The show_title, start_date, and num_of_seasons methods are very simple.  They return the value of the corresponding arguments when called.  The end_date method and about_show method are a little more complicated.  For the end_date method, I used the ternary operator for the if/else statement which says if the argument for end_date is an integer, then it will return the value for end_date.  If it not, then it will return a string saying that the show hasn&amp;#39;t ended.  For the about_show method, I put in another if/else statement in order to summarize the info about the show.  If the end_date is an integer, that means that the show must have ended.  Therefore, it will return a string with the end_date.  If it&amp;#39;s not a string, then the string will not contain the end_date, and instead say that it&amp;#39;s an ongoing show.&lt;/p&gt;
+
+&lt;p&gt;Notice I was able to use the arguments from the new instance in the other methods in the class. This is what is returned when I call each of the methods:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Supernatural&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 10&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 2005&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; This show has not ended yet.&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supernatural&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Supernatural is an ongoing TV series that started in 2005, and has aired 10 season(s).&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I also set the end_date argument to a string.  The reason I did this was to have supernatural.end_date return that string if that argument wasn&amp;#39;t included in the new instance. Notice that for this next example, I don&amp;#39;t put in the argument for end_date.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;FavTVShows&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Castle&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2009&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Castle&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 7&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 2009&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; This show has not ended yet.&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;castle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;about_show&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Castle is an ongoing TV series that started in 2009, and has aired 7 season(s).&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So both Castle and Supernatural are ongoing shows.  So what about a show that has ended?&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;FavTVShows&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Psych&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2006&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2014&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_title&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; Psych&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_of_seasons&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 8&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 2006&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_date&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; 2014&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;psych&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;about_show&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; The TV show Psych started in 2006, ended in 2014, and has aired 8 season(s).&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Because I have created this class, I can add Leverage and Breakout Kings and Lost Girl--I can actually add as many new objects to the FavTVShows class that I want without having to use repetitive and unnecessary code.  Pretty cool, huh?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/07/ruby-classes-tv-edition.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/07/ruby-classes-tv-edition.html</guid>
+        
+        <category>technical</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>All the Feels: pairing &amp; feedback</title>
+        <description>&lt;p&gt;Pairing is definitely a first for me, an entirely new experience. In fact, using Google Hangouts to meet someone for the first time is new to me.  And we weren&amp;#39;t just meeting, but we actually worked together, and it eventually felt like we were coworkers that had been working with each other for a while.  To be honest, though, before pairing for the first time in Phase 0, I was terrified.  I get super anxious when meeting people for the first time or when I&amp;#39;m around people I don&amp;#39;t know very well.  And while I can say I&amp;#39;m no longer terrified, I still get nervous before a pairing session.  Part of me feels that I have nothing useful to contribute, part of me feels like that I might let my pair down, or that I might just be getting in their way.  And I also realize that this is partially based in a fixed mindset.  But, I&amp;#39;m trying to grow out of that and into a growth mindset, and it&amp;#39;s actually pretty difficult.  I find that if I can do something once, then I&amp;#39;ll probably be able to be successful at it again, and that&amp;#39;s what keeps me going and what helps me muffle the self-doubt and overly self-critical thoughts.&lt;/p&gt;
+
+&lt;p&gt;But, I also like pairing.  I&amp;#39;m an introvert, but I also like working in  groups in order to bounce ideas off each other.  While pairing, I have had a really good time for the most part.  I&amp;#39;ve learned what I like and what I don&amp;#39;t like during a pairing session.  And most of the time, I found pairing to be really beneficial: I was able to work with someone who was interested in the same thing and learn from them.  I hope I was able to give back to the team as well at some point.  It was a little frustrating when we both had no idea what to do next, but when that happened it seemed it was best to take a quick break and play around with the code on our own, and then reconvene. It is also extremely rewarding when you and your pair finish a challenge together, or when there&amp;#39;s an epiphany and you both figure out something you&amp;#39;d been stuck on for a while.  Good feels.&lt;/p&gt;
+
+&lt;p&gt;And even though pairing is really a great tool, there were a couple of times when a pairing session just wasn&amp;#39;t that great.  This didn&amp;#39;t happen often, but sometimes I just didn&amp;#39;t feel like I clicked with my pair.  I still tried to do my best, but I felt uneasy the whole time, and I couldn&amp;#39;t figure out why I felt that way, which was frustrating because then I couldn&amp;#39;t try to fix it or even verbalize my feelings.  This was similar to how I feel when giving feedback.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve never been very good at verbalizing my feelings and emotions. And giving feedback to a pair after a session was difficult for me.  If something bothered me, most of the time if there had been a reason, I couldn&amp;#39;t remember it, or I didn&amp;#39;t even know the reason. I also found it difficult to give feedback that was actionable if I felt that everything went well. I&amp;#39;m still working on giving actionable and specific feedback, though, so I should be getting better at that as I pair more.&lt;/p&gt;
+
+&lt;p&gt;When I was in high school, I took creative writing, and in college I took a bunch of art classes.  Because of this, I am pretty open to feedback about myself.  I never take it as true criticism, but as constructive criticism.  Sometimes when I read feedback, I already know what I need to work on, and sometimes it&amp;#39;s a surprise.  But kind of like getting critique on your painting or short story, you can choose what suggestions to take.  While most all of the suggestions I do take seriously, sometimes when I read something and I don&amp;#39;t really understand where it came from, I just say &amp;quot;okay&amp;quot; and move on.  That being said, I really do appreciate feedback.  It&amp;#39;s not only helpful when dealing with your work, but also when dealing with yourself as a person.  The positive feedback I&amp;#39;ve received includes that I have a good attitude, I&amp;#39;m not afraid to ask questions, and that I&amp;#39;m open to trying out different strategies.  Things I need to work on, though, include speaking up more with my own ideas, do a little more independent research on the concepts at hand, and not be afraid of saying when I don&amp;#39;t know something (which I seem to be getting much better at).  And for feedback from me for me, I realize I need to be more confident and be more decisive (I, for some reason, have a had time making decisions).  These won&amp;#39;t happen overnight, but I&amp;#39;ll definitely work on it and try to improve on these things for my next pairing session.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/jekyll/update/2014/09/05/all-the-feels-pairing-and-feedback.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/05/all-the-feels-pairing-and-feedback.html</guid>
+        
+        <category>cultural</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

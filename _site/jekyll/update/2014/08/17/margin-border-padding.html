@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Margin, Border, or Padding?</title>
+  <meta name="description" content="A Jekyll theme - Medium inspired
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://aj9045.github.io/jekyll/update/2014/08/17/margin-border-padding.html">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+<!--  <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://aj9045.github.io" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/aj_logo.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url(/assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg)">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">Margin, Border, or Padding?</h1>
+            <div class="cf post-meta-text">
+              <!-- <div class="author-image" style="background-image: url(/assets/images/aj.jpg)">Blog Logo</div> -->
+              <!-- <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">AJ Stuhrenberg</h4> -->
+              <a style="padding-left: 10px;">Published on</a>
+              <time datetime="2014-08-17 00:00">August 17, 2014</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>So how do we tell the difference between these three?  To aid our understanding, behold, the box model:</p>
+
+<p><img src="/assets/images/box-model.jpg" class="inline"><a style="display:none;">box model pic from http://www.w3schools.com/css/box-model.gif</a></p>
+
+<p>If we take a look at the model, in the middle we see <em>content</em>.  This one speaks for itself.  <em>Content</em> is where our text , like paragraphs, or images appear.</p>
+
+<p>The next one out is <em>padding</em>. This is the area between our <em>content</em> and our <em>border</em>.  It literally &quot;pads&quot; the area around the <em>content</em> so the <em>content</em> doesn&#39;t reach the border (that is, if the <em>padding</em> isn&#39;t equal to zero.</p>
+
+<p>Next, we have the <em>border</em>.  In the above image, it is represented by a thick, lime green line. This is exactly what you would think of when you hear the word &quot;border.&quot;  It outlines the <em>padding</em>.  There are a lot of things you can do with the <em>border</em>.  For example, you could make the <em>border</em> small (1px), big (10px), dahsed, solid, different colors, etc.</p>
+
+<p>Then on the outside, we have the <em>margin</em>.  This is the space that is between the <em>border</em> this element from those around it.</p>
+
+<p>We can think of this kind of like a framed photograph.  The <em>content</em> is the actual photograph.  This could also be framed text, like song lyrics or a quote.  Surrounding the photo is the matting. This matting aroung the photo is the <em>padding</em>.  Of course, we don&#39;t always need matting to display a photo, and just like that, we can set the <em>padding</em> to zero, and the <em>border</em>, or frame, will touch the <em>content</em>, or photo.  <em>Borders</em> and <em>margins</em> may also be set to zero if we don&#39;t wish to use them.  So the <em>border</em>, in this analogy, is the frame, and so what would the <em>margin</em> be then?  Well, think about a row of three framed pictures hanging in a horizontal or vertical line on a wall.  How do they look?  Usually, they are a few inches apart so that the frames do not touch.  That space in between the frames is the <em>margin</em>.  It keeps the elements, the framed photos, from touching.</p>
+
+<p>I hope this helped you understand margins, borders, and padding a little better!</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+            
+              
+            
+              
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Margin%2C+Border%2C+or+Padding%3F&amp;url=http://aj9045.github.io/jekyll/update/2014/08/17/margin-border-padding"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <!-- <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/aj.jpg)">Blog Logo</div>
+              <h4>AJ Stuhrenberg</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2014-08-17 00:00">17 Aug 2014</time></p>
+            </section>
+          </div> -->
+          <!--  -->
+          <div class="isRight">
+            <h5 class="index-headline featured"><span></span></h5>
+            <footer class="site-footer">
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">AJ Stuhrenberg</a> &copy; 2015<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg)">
+        Image
+      </div>
+     <!--  <div class="inner">
+        <h1 class="blog-title">Copacetic</h1>
+        <h2 class="blog-description">A Jekyll theme - Medium inspired
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div> -->
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    $window.on('scroll', function() {
+      var top = $window.scrollTop();
+
+      if (top < 0 || top > 1500) { return; }
+      $image
+        .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+        .css('opacity', 1-Math.max(top/700, 0));
+    });
+    $window.trigger('scroll');
+
+    var height = $('.article-image').height();
+    $('.post-content').css('padding-top', height + 'px');
+
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+       && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({ scrollTop: target.offset().top }, 500);
+          return false;
+        }
+      }
+    });
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>
