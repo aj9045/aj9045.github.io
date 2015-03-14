@@ -4,14 +4,23 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+<div class="page-content">
+  <div class="wrapper">
+    {% for social in site.social %}
+      {% if social.url %}
+        <a class="icon-{{ social.icon }} social" href="{{ social.url }}">
+          <i class="fa fa-{{ social.icon }}"></i>
+        </a>
+        &nbsp;&nbsp;&nbsp;
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+<p></p>
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<img src="/assets/images/me.jpg">
+Hey all! My name is AJ Stuhrenberg. I'm a 22-year old recent graduate from Hobart & William Smith Colleges where I graduated with a BA in Asian studies and a minor in studio art. Although my school was in upsate New York, I've lived in Atlanta, GA most of my life. I also recently just graduated from Dev Bootcamp, an 18 week web development intensive learning experience, this past December. This is all very, very new to me, but I'm ready to learn even more! Please feel free to contact me with questions, comments, or anything else!
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
