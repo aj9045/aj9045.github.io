@@ -7,7 +7,7 @@
   <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Mediator Features</title>
+  <title>SQL Injection--It Hurts</title>
   <meta name="description" content="Hello!  My name is AJ, and I like narwhals.  Thanks for dropping by!
 " />
 
@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features.html">
+  <link rel="canonical" href="http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts.html">
 
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
@@ -38,16 +38,16 @@
       <article class="post">
         
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url(/assets/article_images/2014-11-30-mediator_features/night-track.JPG)">
+          <div class="post-image-image" style="background-image: url(/assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg)">
             Article Image
           </div>
           <div class="post-meta">
-            <h1 class="post-title">Mediator Features</h1>
+            <h1 class="post-title">SQL Injection--It Hurts</h1>
             <div class="cf post-meta-text">
               <!-- <div class="author-image" style="background-image: url(/assets/images/aj.jpg)">Blog Logo</div> -->
               <!-- <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">AJ Stuhrenberg</h4> -->
               <a style="padding-left: 10px;">Published on</a>
-              <time datetime="2014-11-30 09:34">November 30, 2014</time>
+              <time datetime="2014-09-21 00:00">September 21, 2014</time>
               <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
             </div>
             <div style="text-align:center">
@@ -61,55 +61,19 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
-          <h1>Mediator Formats and CSS features</h1>
+          <p>So, what about this SQL injection?  Is it as painful as it sounds?  Well, yes.  It is a technique of inserting SQL statements into an entry field to maliciously gain access to content that was not intended for the attacker.  It is an unfortunate vulnerability of SQL.</p>
 
-<p>Examples for different formats and css features</p>
+<p>Say I have an Netflix account (I do, and it&#39;s great, by the way).  In order to sign in, I must input my email and password. That information is submitted into the database, and if the email/password combination is valid, then I am able to access my account and the content that comes with it.</p>
 
-<h1>Header Formats</h1>
+<p>With SQL injection, though, someone could write malicious code into one of those input fields to gain access to and steal data. Not only is this bad because sensitive information might be taken, but the attacked database may also be at risk for changes or modifications by the attacker, like dropping an entire table!</p>
 
-<h1>Header1</h1>
+<p>here are a few things you can do to prevent SQL injection.  One is prepared statements (or parameterized queries).  These statements make the developer define all of the SQL code and then passing in each parameter to the query.  This lets the database differentiate between the code and th data.</p>
 
-<h2>Header2</h2>
+<p>Another defense is stored procedure, which is stored code that you can use over and over again.  This is helpful because it&#39;s stored instead of having a user input anything.</p>
 
-<h1>Blockquotes</h1>
+<p>A third defense is escaping all user supplied data, because if you escape all user supplied input, then the database won&#39;t think any input is the code.</p>
 
-<blockquote>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus</p>
-</blockquote>
-
-<h1>Lists</h1>
-
-<h2>orderd lists</h2>
-
-<ol>
-<li>one</li>
-<li>two</li>
-<li>three</li>
-</ol>
-
-<h2>unorderd lists</h2>
-
-<ul>
-<li>Apple</li>
-<li>Banana</li>
-<li>Plum</li>
-</ul>
-
-<h1>Links</h1>
-
-<p>This is an <a href="http://example.com/" title="With a Title">example link</a>.</p>
-
-<h1>Combinations</h1>
-
-<blockquote>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus</p>
-
-<ul>
-<li>Apple</li>
-<li>Banana</li>
-<li>Plum</li>
-</ul>
-</blockquote>
+<p>There are more ways to prevent SQL injection, but these are the primary defenses.</p>
 
         </section>
         <footer class="post-footer">
@@ -122,7 +86,7 @@
               
             
               
-                <a class="icon-twitter" href="http://twitter.com/share?text=Mediator+Features&amp;url=http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features"
+                <a class="icon-twitter" href="http://twitter.com/share?text=SQL+Injection--It+Hurts&amp;url=http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts"
                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
                 <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
                 </a>
@@ -138,7 +102,7 @@
               <h4>AJ Stuhrenberg</h4>
               <p class="bio"></p>
               <hr>
-              <p class="published">Published <time datetime="2014-11-30 09:34">30 Nov 2014</time></p>
+              <p class="published">Published <time datetime="2014-09-21 00:00">21 Sep 2014</time></p>
             </section>
           </div> -->
           <!--  -->
