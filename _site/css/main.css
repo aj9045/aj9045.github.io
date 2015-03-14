@@ -439,7 +439,7 @@ body {
     text-decoration: underline; }
 .post .noarticleimage .post-meta {
   font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding-top: 60px; }
+  padding-top: 30px; }
 .post .noarticleimage .post-title {
   font-weight: 700;
   font-style: normal;
@@ -510,7 +510,10 @@ body {
     text-decoration: underline; }
   .post .post-content img {
     max-width: 100%;
-    margin: 0 auto; }
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px; }
   .post .post-content figure {
     margin: 0;
     padding: 0 0 30px; }
@@ -560,6 +563,9 @@ body {
       padding: 0 0 1.618rem; }
   .post .post-content ol li {
     list-style-type: decimal; }
+  .post .post-content .social {
+    color: #999;
+    text-decoration: none; }
 .post .bottom-teaser {
   padding: 50px 0;
   font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
