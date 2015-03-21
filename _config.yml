@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Copacetic"
+title: #"Copacetic"
 description: > # this means to ignore newlines until "email:"
    Hello!  My name is AJ, and I like narwhals.  Thanks for dropping by!
 
@@ -53,8 +53,6 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-
-
 #  - icon:	facebook
 #    url:	https://facebook.com/???
 #    desc: Connect with me facebook
@@ -62,11 +60,5 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
 
 exclude: ['vendor']
