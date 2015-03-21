@@ -494,6 +494,15 @@ body {
     line-height: 1.2;
     padding-top: 31px;
     margin-bottom: 4px; }
+  .post .post-content .archive-post-title {
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.2;
+    padding-top: 0px;
+    margin-bottom: 4px;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
@@ -508,6 +517,25 @@ body {
   .post .post-content a {
     color: #333;
     text-decoration: underline; }
+  .post .post-content .archive-post-link, .post .post-content .tag-title, .post .post-content .tag-post-title {
+    text-decoration: none; }
+  .post .post-content .tag-anchor {
+    border: 1px black solid;
+    padding: 5px;
+    text-decoration: none; }
+  .post .post-content .tag-anchor:hover {
+    color: gray;
+    border: 1px gray solid; }
+  .post .post-content .post-size, .post .post-content .date {
+    font-size: 17px; }
+  .post .post-content .tag-title {
+    font-size: 28px;
+    font-weight: 700; }
+  .post .post-content .tag-list {
+    margin: 20px 0 10px 0; }
+    .post .post-content .tag-list li {
+      margin-left: 50px;
+      margin-bottom: 0; }
   .post .post-content img {
     max-width: 100%;
     width: 200px;
