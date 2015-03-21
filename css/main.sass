@@ -356,6 +356,8 @@ body
       margin: 0
       font-family: $font-sans
       margin-bottom: 4px
+    .built-h
+      font-size: 18px
     h2, h1
       letter-spacing: -0.02em
       font-weight: 700
@@ -375,6 +377,12 @@ body
       -webkit-hyphens: auto
       -moz-hyphens: auto
       hyphens: auto
+    .portfolio-p
+      border-bottom: 1px black solid
+    .built-para
+      padding-bottom: 0
+      font-size: 18px
+      font-style: italic
     a
       color: #333
       text-decoration: underline
@@ -403,6 +411,12 @@ body
       float: right
       margin-left: 15px
       margin-bottom: 10px
+    .project-img
+      float: none
+      width: 400px
+      height: 300px
+      margin: 10px auto
+      display: block
     figure
       margin: 0
       padding: 0 0 30px
@@ -628,3 +642,19 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+#p-container
+  margin-top: 60px
+.project
+  max-width: 600px
+  margin: 0 auto
+  border: black 1px solid
+  overflow: hidden
+.project-build, .project-info
+  margin: 8px
+  padding: 10px
+.project-info
+  border-bottom: black 1px solid
+.project-build
+  border-top: black 1px solid
+  clear: both

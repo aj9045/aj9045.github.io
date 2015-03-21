@@ -486,6 +486,8 @@ body {
     margin: 0;
     font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     margin-bottom: 4px; }
+  .post .post-content .built-h {
+    font-size: 18px; }
   .post .post-content h2, .post .post-content h1 {
     letter-spacing: -0.02em;
     font-weight: 700;
@@ -505,6 +507,12 @@ body {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto; }
+  .post .post-content .portfolio-p {
+    border-bottom: 1px black solid; }
+  .post .post-content .built-para {
+    padding-bottom: 0;
+    font-size: 18px;
+    font-style: italic; }
   .post .post-content a {
     color: #333;
     text-decoration: underline; }
@@ -533,6 +541,12 @@ body {
     float: right;
     margin-left: 15px;
     margin-bottom: 10px; }
+  .post .post-content .project-img {
+    float: none;
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    display: block; }
   .post .post-content figure {
     margin: 0;
     padding: 0 0 30px; }
@@ -766,3 +780,23 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+#p-container {
+  margin-top: 60px; }
+
+.project {
+  max-width: 600px;
+  margin: 0 auto;
+  border: black 1px solid;
+  overflow: hidden; }
+
+.project-build, .project-info {
+  margin: 8px;
+  padding: 10px; }
+
+.project-info {
+  border-bottom: black 1px solid; }
+
+.project-build {
+  border-top: black 1px solid;
+  clear: both; }
