@@ -1,0 +1,32 @@
+---
+layout: page
+title: Tags
+permalink: /tag_index/
+---
+
+<p class="tags">
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <span class="single-tag">
+    <a class="tag-anchor" href="#{{ t | downcase }}">{{t | downcase | replace:" ","-" }}<span class="post-size">({{ posts.size }})</span></a>
+  </span>
+{% endfor %}
+</p>
+
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+
+<a class="tag-title" name="{{ t | downcase }}">{{ t | downcase }}</a>
+<ul class="tag-list">
+{% for post in posts %}
+  {% if post.tags contains t %}
+  <li>
+    <a class="tag-post-title" href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date"> &#183; {{ post.date | date: "%m/%d/%Y" }}</span>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+{% endfor %}
