@@ -11,7 +11,12 @@ email: stuhrenberg.aj@gmail.com
 #blog logo
 logo: "/assets/images/aj_logo.jpg"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/black_tree.png"
+
+#page cover
+page_cover: "/assets/images/path-through-the-woods.png"
+
+
 
 name: 'AJ Stuhrenberg'
 author: 'AJ Stuhrenberg'
