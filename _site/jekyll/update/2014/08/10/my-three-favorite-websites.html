@@ -122,17 +122,6 @@ of deviantArt displays artwork that has been recently posted in a grid-like patt
           </section>
         </footer>
         <div class="bottom-teaser cf">
-          <!-- <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url(/assets/images/aj.jpg)">Blog Logo</div>
-              <h4>AJ Stuhrenberg</h4>
-              <p class="bio"></p>
-              <hr>
-              <p class="published">Published <time datetime="2014-08-10 00:00">10 Aug 2014</time></p>
-            </section>
-          </div> -->
-          <!--  -->
           <div class="isRight">
             <h5 class="index-headline featured"><span></span></h5>
             <footer class="site-footer">
@@ -157,45 +146,6 @@ of deviantArt displays artwork that has been recently posted in a grid-like patt
         <a href="/" class="btn">Back to Overview</a>
       </div> -->
     </div>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/assets/js/index.js"></script>
-<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
-<script>
-(function ($) {
-  "use strict";
-  $(document).ready(function(){
-
-    var $window = $(window),
-    $image = $('.post-image-image, .teaserimage-image');
-    $window.on('scroll', function() {
-      var top = $window.scrollTop();
-
-      if (top < 0 || top > 1500) { return; }
-      $image
-        .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-        .css('opacity', 1-Math.max(top/700, 0));
-    });
-    $window.trigger('scroll');
-
-    var height = $('.article-image').height();
-    $('.post-content').css('padding-top', height + 'px');
-
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-       && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({ scrollTop: target.offset().top }, 500);
-          return false;
-        }
-      }
-    });
-  });
-}(jQuery));
-</script>
-
 
   </body>
 </html>
