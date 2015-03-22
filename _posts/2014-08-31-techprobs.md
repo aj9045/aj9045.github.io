@@ -4,7 +4,7 @@ title:  "#TechProbs"
 date:   2014-08-31
 categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 So what is a problem that the tech industry is currently facing?  Well, for starters, diversity. CNNMoney put together [an interactive chart](http://money.cnn.com/interactive/technology/tech-diversity-data/") that gives you a quick look at 5 top tech companies and their diversity based on gender and race.  Of course, this isn't a complete survey because it only focuses on two genders and throws anyone who doesn't fit into their race categories into "other," but at least it gives a good glimpse into the lack of diversity.  It also covers the different positions in the workforce.  While it may look like Asian men are doing better than the rest (not better than white men, of course), you can see where this is not the case.  The next step above the professional workforce is mid-level officer/manager and then officer/manager, and there, the numbers are much lower.  Minorities are not only underrepresented in the tech world, but also even more so in the higher positions in the industry.
