@@ -4,7 +4,7 @@ title:  "About My Gulliver"
 date:   2014-08-24
 categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 A Clockwork Orange reference? Anyone?  Well, today, I'm going to talk about my gulliver--specifically my learning and thinking styles.  Prior to beginning Phase 0 at Dev Bootcamp, we were asked to assess  these two things.  So I checked out my personal [thinking style](http://www.thelearningweb.net/personalthink.html")first. The Gregorc Mind Styles model gives us a way to compartmentalize how our minds work.  It is broken up into four categories, which each contain one perceptual quality (either concrete or abstract) and one ordering ability (sequential or random).

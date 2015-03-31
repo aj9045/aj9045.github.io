@@ -4,7 +4,7 @@ title:  "Stereotype Threat"
 date:   2014-09-14
 categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 I learned something new the other day.  Stereotype threat.  I hadn't heard of it before, but it makes a lot of sense. But first, what is a stereotype?  From the Merriam Webster dictionary, a [stereotype](http://www.merriam-webster.com/dictionary/stereotype") is "a standardized mental picture that is held in common by members of a group and that represents an oversimplified opinion, prejudiced attitude, or uncritical judgment." Saying that someone must not be able to dance because they are white is a stereotype. And most stereotypes are negative or hurtful.  Even if a certain stereotype is true for one particular person, to insult someone based on some preconceived assumption does not help anyone.

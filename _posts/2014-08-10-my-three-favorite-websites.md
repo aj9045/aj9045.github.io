@@ -4,7 +4,7 @@ title:  "My Three Favorite Websites"
 date:   2014-08-10
 categories: jekyll update
 tags: technical
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 [Deviantart.com](http://deviantart.com) is in my top three favorite websites.  This is mostly because of what the site is, does, and offers.  It's a huge online social network for artists, and it doesn't matter whether you create art for a hobby, as a student, as a professional, etc.  This site doesn't define what they accept by how "talented" or "skilled" you are, which makes it a great portal for encouragement and inspiration. There are so many different types of artwork you can post, from traditional to digital, from sculpture to animation, from artisan crafts to comics and manga.

@@ -4,7 +4,7 @@ title:  "Dealing with Conflict"
 date:   2014-09-28
 categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 This right here is Dr. Nathanson's [Compass of Shame](http://southdown.on.ca/publications/articles/Compass-of-Shame.pdf">Compass of Shame):

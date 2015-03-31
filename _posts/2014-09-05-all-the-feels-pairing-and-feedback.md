@@ -4,7 +4,7 @@ title:  "All the Feels: pairing & feedback"
 date:   2014-09-05
 categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 Pairing is definitely a first for me, an entirely new experience. In fact, using Google Hangouts to meet someone for the first time is new to me.  And we weren't just meeting, but we actually worked together, and it eventually felt like we were coworkers that had been working with each other for a while.  To be honest, though, before pairing for the first time in Phase 0, I was terrified.  I get super anxious when meeting people for the first time or when I'm around people I don't know very well.  And while I can say I'm no longer terrified, I still get nervous before a pairing session.  Part of me feels that I have nothing useful to contribute, part of me feels like that I might let my pair down, or that I might just be getting in their way.  And I also realize that this is partially based in a fixed mindset.  But, I'm trying to grow out of that and into a growth mindset, and it's actually pretty difficult.  I find that if I can do something once, then I'll probably be able to be successful at it again, and that's what keeps me going and what helps me muffle the self-doubt and overly self-critical thoughts.

@@ -4,7 +4,7 @@ title:  "Margin, Border, or Padding?"
 date:   2014-08-17
 tags: technical
 categories: jekyll update
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 So how do we tell the difference between these three?  To aid our understanding, behold, the box model:

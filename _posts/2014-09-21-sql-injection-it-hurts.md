@@ -4,7 +4,7 @@ title:  "SQL Injection--It Hurts"
 date:   2014-09-21
 categories: jekyll update
 tags: technical
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 So, what about this SQL injection?  Is it as painful as it sounds?  Well, yes.  It is a technique of inserting SQL statements into an entry field to maliciously gain access to content that was not intended for the attacker.  It is an unfortunate vulnerability of SQL.
