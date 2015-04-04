@@ -542,12 +542,14 @@ body {
   .post .post-content .inline-blog-img {
     width: 200px;
     float: right;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 0px; }
   .post .post-content .left-inline-blog-img {
     width: 200px;
     float: left;
     margin-right: 15px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 0px; }
   .post .post-content .project-img {
     float: none;
     width: 400px;
