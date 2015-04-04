@@ -263,7 +263,6 @@ body {
     .content {
       padding: 0 32px; } }
   .content article {
-    padding: 40px 0;
     border-bottom: 1px solid #f2f2f0; }
     .content article:last-child {
       border-bottom: 0px; }
@@ -871,6 +870,9 @@ pre {
 
 .p5 {
   padding: 5px; }
+
+.mb40 {
+  margin-bottom: 60px; }
 
 .fr {
   float: right; }
