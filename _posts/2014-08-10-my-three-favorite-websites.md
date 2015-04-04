@@ -19,8 +19,15 @@ The site solves the issue of keeping so many submitted pieces of original artwor
 On the other hand, another cool feature of this site is that you can buy others' artwork and sell your own.  I haven't yet bought anything from others on the site, but I have a few pieces bookmarked!
 
 
-Another of my favorite sites is [Etsy](http://etsy.com/). It is an online hub for buying and selling goods, including handmade goods, vintage goods, and craft supplies.  You can find really cool things on here from all over the world.  I've purchased a few things from individual sellers for myself, like this Prancing Pony mug <img src="/assets/images/prancing_pony_mug.jpeg">from [Functional Mud](http://etsy.com/shop/FunctionalMud?ref=l2-shopheader-name/), as well as a few for gifts, like this wine coaster <img src="/assets/images/wine_coaster.jpeg"> from [Woodchuck's Wood](https://www.etsy.com/shop/woodchuckswood?ref=l2-shopheader-name).
-
+Another of my favorite sites is [Etsy](http://etsy.com/). It is an online hub for buying and selling goods, including handmade goods, vintage goods, and craft supplies.  You can find really cool things on here from all over the world.  I've purchased a few things from individual sellers for myself, like this Prancing Pony mug from [Functional Mud](http://etsy.com/shop/FunctionalMud?ref=l2-shopheader-name/), as well as a few for gifts, like this wine coaster from [Woodchuck's Wood](https://www.etsy.com/shop/woodchuckswood?ref=l2-shopheader-name).
+<figure>
+  <img src="/assets/images/prancing_pony_mug.jpeg" class="w200 p5">
+  <figcaption>Prancing Pony mug</figcaption>
+</figure>
+<figure class="fr">
+  <img src="/assets/images/wine_coaster.jpeg" class="w200 p5">
+  <figcaption>wine coaster</figcaption>
+</figure>
 
 When I pull up Etsy's homepage, it's rather bare/plain--even more so than deviantART's.  When I have the page pulled to full screen, the spacing issue is real.  I first notice the orange Etsy button in the top left hand corner, and I would say it's definitely not the most important bit of the site.  And besides the main three boxes in the middle of the page  all the empty space on the right. The space could be used more wisely. Also, when I go to my "Activity" button (just to the right of the "Etsy" button), the spacing is really off there, too. Some recommended collections/favorites are aok: they're rectangular and visible like they should be. However, some of them only show up as vertical slivers. And when you search for something in the search bar, when the page comes up and you want to make the page smaller, there's a point where the items  listed on the left just disappear, which is really frustrating. Maybe it's my browser, but something's really off.
 

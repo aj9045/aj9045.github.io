@@ -6,9 +6,7 @@ tags: cultural
 ---
 
 This right here is Dr. Nathanson's [Compass of Shame](http://southdown.on.ca/publications/articles/Compass-of-Shame.pdf">Compass of Shame):
-
-<img src="/assets/images/compass_of_shame.png">
-
+<img src="/assets/images/compass_of_shame.png" class="inline-blog-img">
 What is the Compass of Shame?  It is a compass that points to four different ways that people tend to deal with shame and conflict.  N, E, S, W is Withdrawal, Attack Self, Avoidance, and Attack Other, respectively.  How do you usually react?  Despite the name, there's no shame in admitting that you usually favor one of these coping behaviors.  However, it is important to recognize that this might be how you respond in these situations.  It is then easier to gauge what will be a more effective way to handle the threat than what you would have done by nature to begin with.
 
 On that note, I will talk about a time I had an emotional conflict with someone (in this case with an institution), how I handled it, and what I can learn from it.
