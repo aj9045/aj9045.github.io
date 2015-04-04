@@ -807,22 +807,49 @@ pre {
   display: inline; }
 
 .blog-post-meta {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  top: 10%;
-  left: 10%; }
+  position: absolute; }
+  @media (min-width: 1024px) and (max-width: 1480px) {
+    .blog-post-meta {
+      top: 20%;
+      left: 20%; } }
+  @media (min-width: 850px) and (max-width: 1024px) {
+    .blog-post-meta {
+      top: 20%;
+      left: 20%; } }
+  @media (min-width: 620px) and (max-width: 850px) {
+    .blog-post-meta {
+      top: 20%;
+      left: 15%; } }
+  @media (min-width: 480px) and (max-width: 620px) {
+    .blog-post-meta {
+      top: 15%;
+      left: 10%; } }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .blog-post-meta {
+      top: 10%;
+      left: 10%; } }
 
 .blog-post-title {
   font-weight: 700;
   font-style: normal;
   letter-spacing: -0.04em;
-  font-size: 50px;
+  font-size: 70px;
   line-height: 1.1;
   color: #fff;
   margin-bottom: 16px;
-  text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
-  font-size: 40px; }
+  text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 850px) and (max-width: 1024px) {
+    .blog-post-title {
+      font-size: 50px; } }
+  @media (min-width: 620px) and (max-width: 850px) {
+    .blog-post-title {
+      font-size: 40px; } }
+  @media (min-width: 480px) and (max-width: 620px) {
+    .blog-post-title {
+      font-size: 30px; } }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .blog-post-title {
+      font-size: 22px; } }
 
 .blog-post-meta-text {
   color: rgba(255, 255, 255, 0.75);

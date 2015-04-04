@@ -18,6 +18,41 @@ $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
   @media only screen and (max-width: $breakpoint + px)
     @content
 
+$largest-screen: 1480px
+$large-screen: 1024px
+$medium-screen: 850px
+$small-screen: 620px
+$smallest-screen: 480px
+
+
+@mixin large
+  @media (min-width: $large-screen) and (max-width: $largest-screen)
+    @content
+
+
+@mixin medium
+  @media (min-width: $medium-screen) and (max-width: $large-screen)
+    @content
+
+
+
+@mixin small
+  @media (min-width: $small-screen) and (max-width: $medium-screen)
+    @content
+
+
+
+@mixin smaller
+  @media (min-width: $smallest-screen) and (max-width: $small-screen)
+    @content
+
+
+@mixin smallest
+  @media (min-width: 320px) and (max-width: $smallest-screen)
+    @content
+
+
+
 // Only needed for syntax highlighting
 %vertical-rhythm
   margin-bottom: $rs
@@ -658,19 +693,45 @@ pre
   border-top: black 1px solid
   clear: both
 
+.blog-post-img
+  background-size: cover
+  width: 100%
+  position: relative
+  display: inline
 .blog-post-meta
   position: absolute
-  margin-top: 300px
+  @include large
+    top: 20%
+    left: 20%
+  @include medium
+    top: 20%
+    left: 20%
+  @include small
+    top: 20%
+    left: 15%
+  @include smaller
+    top: 15%
+    left: 10%
+  @include smallest
+    top: 10%
+    left: 10%
 .blog-post-title
   font-weight: 700
   font-style: normal
   letter-spacing: -0.04em
-  font-size: 50px
+  font-size: 70px
   line-height: 1.1
   color: #fff
   margin-bottom: 16px
   text-shadow: 0px 1px 16px rgba(0,0,0,0.5), 0px 0px 1px rgba(0,0,0,0.5)
-
+  @include medium
+    font-size: 50px
+  @include small
+    font-size: 40px
+  @include smaller
+    font-size: 30px
+  @include smallest
+    font-size: 22px
 .blog-post-meta-text
   color: rgba(255,255,255,0.75)
   letter-spacing: -0.02em
@@ -682,3 +743,4 @@ pre
   font-family: $font-sans
   white-space: nowrap
   text-overflow: ellipsis
+
