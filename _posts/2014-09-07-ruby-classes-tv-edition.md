@@ -2,9 +2,7 @@
 layout: post
 title:  "Ruby Classes: TV Edition"
 date:   2014-09-07
-categories: jekyll update
 tags: technical
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 Classes in Ruby are a good way to organize and create a collection of methods that will only work inside that class.  We may also make objects that will work for all of these various methods within the same class called instance variables.

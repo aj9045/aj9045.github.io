@@ -2,9 +2,7 @@
 layout: post
 title:  "A bit about Enumerable#cycle"
 date:   2014-08-31
-categories: jekyll update
 tags: technical
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 
 This is a pretty cool method, if I do say so myself.  It does exactly what you think it would do based on its name.  Similar to the each method, you can cycle through an array and do something to it using a block.  If no block is given, it will return an enumerator.  However, if there is a block but no argument, it creates an infinite loop.

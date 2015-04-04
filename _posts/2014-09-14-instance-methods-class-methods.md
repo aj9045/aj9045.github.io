@@ -2,9 +2,7 @@
 layout: post
 title:  "Instance Methods? Class Methods?"
 date:   2014-09-14
-categories: jekyll update
 tags: technical
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 In an earlier post, I talked a bit about classes in Ruby.  And now I'm going to talk about instance methods and class methods.

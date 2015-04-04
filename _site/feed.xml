@@ -6,72 +6,9 @@
 </description>
     <link>http://aj9045.github.io/</link>
     <atom:link href="http://aj9045.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Apr 2015 13:52:28 -0400</pubDate>
-    <lastBuildDate>Fri, 03 Apr 2015 13:52:28 -0400</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2015 15:42:52 -0400</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 15:42:52 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Mediator Features</title>
-        <description>&lt;h1&gt;Mediator Formats and CSS features&lt;/h1&gt;
-
-&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
-
-&lt;h1&gt;Header Formats&lt;/h1&gt;
-
-&lt;h1&gt;Header1&lt;/h1&gt;
-
-&lt;h2&gt;Header2&lt;/h2&gt;
-
-&lt;h1&gt;Blockquotes&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1&gt;Lists&lt;/h1&gt;
-
-&lt;h2&gt;orderd lists&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;one&lt;/li&gt;
-&lt;li&gt;two&lt;/li&gt;
-&lt;li&gt;three&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;unorderd lists&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;li&gt;Plum&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Links&lt;/h1&gt;
-
-&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1&gt;Combinations&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;li&gt;Plum&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 30 Nov 2014 09:34:25 -0500</pubDate>
-        <link>http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/mediator/feature/2014/11/30/mediator_features.html</guid>
-        
-        
-        <category>mediator</category>
-        
-        <category>feature</category>
-        
-      </item>
     
       <item>
         <title>The Q&#39;s and the A&#39;s</title>
@@ -90,15 +27,11 @@
 &lt;p&gt;Basically, if you want a good answer, you have to ask a good question.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Oct 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/10/05/the-qs-and-the-as.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/10/05/the-qs-and-the-as.html</guid>
+        <link>http://aj9045.github.io/2014/10/05/the-qs-and-the-as.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/10/05/the-qs-and-the-as.html</guid>
         
         <category>cultural</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -117,15 +50,11 @@
 &lt;p&gt;So far I&amp;#39;ve learned a bit of HTML/CSS, Ruby, JavaScript, and I&amp;#39;m looking forward to creating something with a little of all of these using Rails.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/28/what-is-rails.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/28/what-is-rails.html</guid>
+        <link>http://aj9045.github.io/2014/09/28/what-is-rails.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/28/what-is-rails.html</guid>
         
         <category>technical</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -158,15 +87,11 @@
 &lt;p&gt;In personal confrontations, I usually bite my tongue, just ignore the threat, and cool down by myself.  I&amp;#39;ve learned that many times after I calm down whether it be an hour later or a day later, it&amp;#39;s best to talk about it with the other person if I really felt that strongly about whatever it was we had a conflict about.  I find that to be helpful so there&amp;#39;s no pent up resentment or lingering negative feelings.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/28/dealing-with-conflict.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/28/dealing-with-conflict.html</guid>
+        <link>http://aj9045.github.io/2014/09/28/dealing-with-conflict.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/28/dealing-with-conflict.html</guid>
         
         <category>cultural</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -193,15 +118,11 @@
 &lt;p&gt;I was talking with my dad once, and he pointed out that I&amp;#39;m rather introspective.  I hadn&amp;#39;t really thought about that before, but I realized that was very true.  And that can be both a good and bad thing.  I think now that I know that stereotype threat is actually a real thing, I&amp;#39;ll be able first, identify when I feel it, and second, be able to alleviate it with my values.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/21/valuing-values.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/21/valuing-values.html</guid>
+        <link>http://aj9045.github.io/2014/09/21/valuing-values.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/21/valuing-values.html</guid>
         
         <category>cultural</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -222,15 +143,11 @@
 &lt;p&gt;There are more ways to prevent SQL injection, but these are the primary defenses.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/21/sql-injection-it-hurts.html</guid>
+        <link>http://aj9045.github.io/2014/09/21/sql-injection-it-hurts.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/21/sql-injection-it-hurts.html</guid>
         
         <category>technical</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -253,15 +170,11 @@
 &lt;p&gt;I also want to mention that feeling safe should not be seen as a privilege, but a right.  This is similar to using someone&amp;#39;s preferred name or pronouns.  You don&amp;#39;t earn a trophy for respecting them and their identity.  It just means you&amp;#39;re a decent human being.  So why don&amp;#39;t we all practice being decent human beings?  A lot of the things we&amp;#39;re trying to overcome here are being perpetuated by the society we live in, starting at the moment you&amp;#39;re born.  That makes those ideas hard to change, but we can all make an effort.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/14/stereotype-threat.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/14/stereotype-threat.html</guid>
+        <link>http://aj9045.github.io/2014/09/14/stereotype-threat.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/14/stereotype-threat.html</guid>
         
         <category>cultural</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -354,15 +267,11 @@
 &lt;p&gt;The class Cat is an object (like most everything in Ruby), and therefore, it gets its own methods to look across itself, which is made up of multiple instances.  This is why a class method is used instead of an instance method to count all new instances of the class.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/14/instance-methods-class-methods.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/14/instance-methods-class-methods.html</guid>
+        <link>http://aj9045.github.io/2014/09/14/instance-methods-class-methods.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/14/instance-methods-class-methods.html</guid>
         
         <category>technical</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -470,15 +379,11 @@
 &lt;p&gt;Because I have created this class, I can add Leverage and Breakout Kings and Lost Girl--I can actually add as many new objects to the FavTVShows class that I want without having to use repetitive and unnecessary code.  Pretty cool, huh?&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/07/ruby-classes-tv-edition.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/07/ruby-classes-tv-edition.html</guid>
+        <link>http://aj9045.github.io/2014/09/07/ruby-classes-tv-edition.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/07/ruby-classes-tv-edition.html</guid>
         
         <category>technical</category>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -495,15 +400,32 @@
 &lt;p&gt;When I was in high school, I took creative writing, and in college I took a bunch of art classes.  Because of this, I am pretty open to feedback about myself.  I never take it as true criticism, but as constructive criticism.  Sometimes when I read feedback, I already know what I need to work on, and sometimes it&amp;#39;s a surprise.  But kind of like getting critique on your painting or short story, you can choose what suggestions to take.  While most all of the suggestions I do take seriously, sometimes when I read something and I don&amp;#39;t really understand where it came from, I just say &amp;quot;okay&amp;quot; and move on.  That being said, I really do appreciate feedback.  It&amp;#39;s not only helpful when dealing with your work, but also when dealing with yourself as a person.  The positive feedback I&amp;#39;ve received includes that I have a good attitude, I&amp;#39;m not afraid to ask questions, and that I&amp;#39;m open to trying out different strategies.  Things I need to work on, though, include speaking up more with my own ideas, do a little more independent research on the concepts at hand, and not be afraid of saying when I don&amp;#39;t know something (which I seem to be getting much better at).  And for feedback from me for me, I realize I need to be more confident and be more decisive (I, for some reason, have a had time making decisions).  These won&amp;#39;t happen overnight, but I&amp;#39;ll definitely work on it and try to improve on these things for my next pairing session.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/jekyll/update/2014/09/05/all-the-feels-pairing-and-feedback.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/jekyll/update/2014/09/05/all-the-feels-pairing-and-feedback.html</guid>
+        <link>http://aj9045.github.io/2014/09/05/all-the-feels-pairing-and-feedback.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/09/05/all-the-feels-pairing-and-feedback.html</guid>
         
         <category>cultural</category>
         
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>#TechProbs</title>
+        <description>&lt;p&gt;So what is a problem that the tech industry is currently facing?  Well, for starters, diversity. CNNMoney put together &lt;a href=&quot;http://money.cnn.com/interactive/technology/tech-diversity-data/%22&quot;&gt;an interactive chart&lt;/a&gt; that gives you a quick look at 5 top tech companies and their diversity based on gender and race.  Of course, this isn&amp;#39;t a complete survey because it only focuses on two genders and throws anyone who doesn&amp;#39;t fit into their race categories into &amp;quot;other,&amp;quot; but at least it gives a good glimpse into the lack of diversity.  It also covers the different positions in the workforce.  While it may look like Asian men are doing better than the rest (not better than white men, of course), you can see where this is not the case.  The next step above the professional workforce is mid-level officer/manager and then officer/manager, and there, the numbers are much lower.  Minorities are not only underrepresented in the tech world, but also even more so in the higher positions in the industry.&lt;/p&gt;
+
+&lt;p&gt;Women are even more underrepresented in the tech industry--around 20%. The tech world has become dominated by men, and the culture tends to be rather sexist and misogynistic.  We live in a world where &amp;quot;you did well, for a girl&amp;quot; is the norm, and where sexual harassment and crude jokes are made at the expense of women.  &amp;quot;Get back in the kitchen&amp;quot; jokes are not funny.  &amp;quot;Go make me a sandwich&amp;quot; jokes are not funny.  And rape jokes are not funny.  Period.  Yet, it goes on.  Women should not have to be afraid to enter a certain industry because of harassment, and they should not feel so uncomfortable from rude remarks and unwanted advances that they feel they have to quit their job (for more on this click &lt;a href=&quot;href=%22http://www.nytimes.com/2014/04/06/technology/technologys-man-problem.html?_r=0%22&quot;&gt;here&lt;/a&gt;).  I don&amp;#39;t identify as a woman, but because most people misgender me I&amp;#39;m worried that this is what awaits me.&lt;/p&gt;
+
+&lt;p&gt;One of the problems is that many of us don&amp;#39;t recognize our privilege.  Privilege is not necessarily a bad thing, and you shouldn&amp;#39;t feel ashamed for being able to take something like not being accused of being moody because of &amp;quot;that time of the month&amp;quot; or not being passed up for a promotion because you&amp;#39;re a person of color.  Even I, as a gender non-conforming person of color, have privilege: I&amp;#39;ve graduated from college and I&amp;#39;m not in debt.  The point is to recognize that you have privilege, and recognize when that privilege comes into play.&lt;/p&gt;
+
+&lt;p&gt;And on that same note, empathy is very important.  Whether it&amp;#39;s empathy for someone losing their favorite socks, to deciding not to make a crude joke at the expense of someone else&amp;#39;s feelings or experiences, it&amp;#39;s time to take charge and step it up. Empathy is one of the most important skills you can have as a person. Think before you do or say something that might make someone feel uncomfortable or threatened, and really try to understand why someone might feel that way if you did/said what you were thinking.  Basically, don&amp;#39;t be an ass.&lt;/p&gt;
+
+&lt;p&gt;However, there&amp;#39;s so much more to this issue than not being a jerk, but there is no real quick fix.  We all are really going to have to make an effort in order to change the sexist and misogynistic culture that has consumed much of the tech industry in order to create a place where everyone feels welcome.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/2014/08/31/techprobs.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2014/08/31/techprobs.html</guid>
         
-        <category>update</category>
+        <category>cultural</category>
+        
         
       </item>
     

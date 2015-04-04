@@ -2,9 +2,7 @@
 layout: post
 title:  "Chef's Kitchen"
 date:   2014-08-20
-categories: jekyll update
 tags: cultural
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
 ---
 
 Based on the video Shareef's Fireside Chat), I can say that I totally see where he's coming from.  I had no idea what I was going to do after I graduated form college, and I knew I didn't want to go into a field dealing with what I majored or minored in.  I don't reall yhave a passion, but when I picked up Codecademy's HTML/CSS tutorial, I thought it was fun, and really that's all it took.  When I found Dev Bootcamp, it <em>did</em> seem like the whole package.  I was looking at it based on the "restaurant" mindset, where you order, you get you services/goods, you pay, you say thanks, and you're on your way.  I knew it would be difficult, but it seemed like the smart thing to do if I was at all interested.

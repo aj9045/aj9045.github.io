@@ -2,9 +2,7 @@
 layout: post
 title:  "A Look at JavaScript"
 date:   2014-08-24
-categories: jekyll update
 tags: technical
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 So why is JavaScript so popular?  Let's take a quick look at its origins.  The language was created by Brendan Eich in 1995.  The language, that was first used for the Netscape browser, has also dominated all of the major browsers we have today.  And while the names JavaScript and Java are similar, they basically have nothing to do with each other.  The name for JavaScript, which I will now refer to as JS, had been changed from Mocha to LiveScript to JavaScript because the programming language Java had been gaining popularity.  So the name change was made in order to piggyback on the success of Java.

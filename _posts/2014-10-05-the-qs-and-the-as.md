@@ -2,9 +2,7 @@
 layout: post
 title:  "The Q's and the A's"
 date:   2014-10-05
-categories: jekyll update
 tags: cultural
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 Asking questions can be a really useful tool to further understanding or to fix a problem.  However, it's only useful if you get the correct answer.  And to do that, you must ask good questions.  Whether specifically  asking questions online or to someone else, it's important to be concise.  So here are a few tips about asking good questions:

@@ -2,9 +2,7 @@
 layout: post
 title:  "My Three Favorite Websites"
 date:   2014-08-10
-categories: jekyll update
 tags: technical
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 [Deviantart.com](http://deviantart.com) is in my top three favorite websites.  This is mostly because of what the site is, does, and offers.  It's a huge online social network for artists, and it doesn't matter whether you create art for a hobby, as a student, as a professional, etc.  This site doesn't define what they accept by how "talented" or "skilled" you are, which makes it a great portal for encouragement and inspiration. There are so many different types of artwork you can post, from traditional to digital, from sculpture to animation, from artisan crafts to comics and manga.
@@ -14,7 +12,6 @@ of deviantArt displays artwork that has been recently posted in a grid-like patt
 
 
 Visually, I would describe this site as practical, organized, understandable, navigable, and [relatively] unimaginative. The fact that it's a little plain is kind of ironic, but because its focus and purpose is to showcase original artwork and connect with others through art, it makes sense that they put a bit more thought into the organization and layout than whether it looks super stellar.
-
 
 The site solves the issue of keeping so many submitted pieces of original artwork organized.  I figure, from the time I've spent on deviantART, more work is being added every day by the hundreds, yet everything is still pretty organized and the layout of the site is pretty easy to navigate.  One thing you do have be kind of aware of is what type of art would be another's subcategory.  Because the menus don't drop down from hovering, you have to click on the parent genre to get the children in a separate page, and so on.  This takes up a little more time if you don't know where a certain category is because you have to keep going back and forth between pages.
 

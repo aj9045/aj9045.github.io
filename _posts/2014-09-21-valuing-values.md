@@ -2,9 +2,7 @@
 layout: post
 title:  "Valuing Values"
 date:   2014-09-21
-categories: jekyll update
 tags: cultural
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 There are certain values that are more important to me than others.  It took me a good few minutes to come up with them, as I had to think back and see how they took part in my life.

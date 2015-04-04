@@ -2,9 +2,7 @@
 layout: post
 title:  "What is Rails?"
 date:   2014-09-28
-categories: jekyll update
 tags: technical
-image: /assets/article_images/black-and-white-storm.jpg
 ---
 
 Coming into Dev Bootcamp, I knew we'd be learning Ruby on Rails.  I said that with confidence, but I really had no idea what Ruby on Rails was.

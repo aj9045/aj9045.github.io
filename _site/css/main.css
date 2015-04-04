@@ -800,9 +800,18 @@ pre {
   border-top: black 1px solid;
   clear: both; }
 
+.blog-post-img {
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  display: inline; }
+
 .blog-post-meta {
   position: absolute;
-  margin-top: 300px; }
+  top: 20%;
+  left: 20%;
+  top: 10%;
+  left: 10%; }
 
 .blog-post-title {
   font-weight: 700;
@@ -812,7 +821,8 @@ pre {
   line-height: 1.1;
   color: #fff;
   margin-bottom: 16px;
-  text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+  text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+  font-size: 40px; }
 
 .blog-post-meta-text {
   color: rgba(255, 255, 255, 0.75);
