@@ -10,7 +10,7 @@ permalink: /projects/
 <div id="p-container">
   <div class="project">
     <div class="project-info">
-      <h3><a href="http://www.packsnap.herokuapp.com">PackSnap</a></h3>
+      <h3><a href="http://packsnap.herokuapp.com">PackSnap</a></h3>
       <a href="https://github.com/Edchen001/PackSnap">Source</a>
     </div>
     <img src="/assets/images/packsnapfinal.png" class="project-img">
