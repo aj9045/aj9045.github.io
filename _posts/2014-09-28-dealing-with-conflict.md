@@ -6,20 +6,20 @@ tags: cultural
 ---
 
 This right here is Dr. Nathanson's [Compass of Shame](http://southdown.on.ca/publications/articles/Compass-of-Shame.pdf">Compass of Shame):
-<img src="/assets/images/compass_of_shame.png" class="inline-blog-img">
-What is the Compass of Shame?  It is a compass that points to four different ways that people tend to deal with shame and conflict.  N, E, S, W is Withdrawal, Attack Self, Avoidance, and Attack Other, respectively.  How do you usually react?  Despite the name, there's no shame in admitting that you usually favor one of these coping behaviors.  However, it is important to recognize that this might be how you respond in these situations.  It is then easier to gauge what will be a more effective way to handle the threat than what you would have done by nature to begin with.
+<img src="/assets/images/compass_of_shame.png">
+What is the <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CC4QtwIwAg&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLZ1fSW7zevE&ei=7YBBVZftDM2IsQS0moCwDA&usg=AFQjCNFn2NUO-0qgxoD47T5LWhYVtzex2A&sig2=_h472wq0uILbVouGPBDStA">Compass of Shame</a>?  It is a compass that points to four different ways that people tend to deal with shame and conflict.  N, E, S, W is Withdrawal, Attack Self, Avoidance, and Attack Other, respectively.  How do you usually react?  Despite the name, there's no shame in admitting that you usually favor one of these coping behaviors.  However, it is important to recognize that this might be how you respond in these situations.  It is then easier to gauge what will be a more effective way to handle the threat than what you would have done by nature to begin with.
 
 On that note, I will talk about a time I had an emotional conflict with someone (in this case with an institution), how I handled it, and what I can learn from it.
 
 --<strong>What was the conflict?</strong>
 
-I graduated from college this past May.  With graduation comes the diploma.  Since I entered college, I have gone by "AJ."  It's my name.  So when I filled out the form for the diploma, I wrote "AJ Stuhrenberg" even though under the name line is said that most people usually use their full name, including a middle name if they have one.  I obviously read that bit (it was hard to miss), and had chosen otherwise.  I week later I get an email confirming that that's what I want on my diploma, like I was just messing around when I had filled out the form.  That annoyed me.  But I just replied, "yes," and it was fine.
+I graduated from college this past May.  With graduation comes the diploma.  Since I entered college, I have gone by "AJ."  It's my name.  So when I filled out the form for the diploma, I wrote "AJ Stuhrenberg" even though under the name line is said that most people usually use their full name, including a middle name if they have one.  I obviously read that bit (it was hard to miss), and had chosen otherwise.  A week later I get an email confirming that that's truly what I want on my diploma, like I was just messing around when I had filled out the form.  That annoyed me.  But I just replied, "yes," and it was fine.
 
-A couple months later I graduated.  I walked across the stage and too my diploma.  After the ceremony I met up with my parents.  I opened the diploma, and my name was wrong.  They had put my legal first name.  So not only had I told them what I wanted on my diploma, but I confirmed it as well; yet, here they were handing me this.
+A couple months later, I graduated.  I walked across the stage and received my diploma.  After the ceremony, I met up with my parents.  I opened the diploma, and my name was wrong.  They had put my legal first name.  So not only had I told them what I wanted on my diploma, but I confirmed it with them as well; yet, here they were handing me this.
 
 --<strong>How did you handle that conflict?</strong>
 
-I ranted to my parents, but I didn't really do anything because we had to leave (16 hour drive back home).  But when I got home.  I wrote an email to whoever I had turned the form in to.  They emailed me back, and then someone else emailed me back.  They said my legal first name HAD to be on the diploma.  If that's the case, then why the hell did they give me the choice in the first place?  So I replied with a strongly worded email.
+I ranted to my parents, but I didn't really do anything because we had to leave (16 hour drive back home).  But when I got home, I wrote an email to whoever I had turned the form in to.  They emailed me back, and then someone else emailed me back.  They said my legal first name HAD to be on the diploma.  If that's the case, then why the hell did they give me the choice in the first place?  So I replied with a strongly worded email.
 
 --<strong>If you could go back, what would you do differently, if anything? And what did you learn from this experience?</strong>
 
