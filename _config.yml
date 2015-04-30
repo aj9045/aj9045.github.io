@@ -30,6 +30,13 @@ baseurl: ""
 # social icons and sharing options
 social:
 
+  - icon: behance
+    url: http://behance.com/aj9045
+    desc: Take a look at my Behance portfolio
+    share_url:
+    share_title:
+    share_link:
+
   - icon: envelope-o
     url:  mailto:stuhrenberg.aj@gmail.com
     desc: Here's my email address
