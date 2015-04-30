@@ -5,7 +5,7 @@ date:   2014-10-05
 tags: cultural
 ---
 
-Asking questions can be a really useful tool to further understanding or to fix a problem.  However, it's only useful if you get the correct answer.  And to do that, you must ask good questions.  Whether specifically  asking questions online or to someone else, it's important to be concise.  So here are a few tips about asking good questions:
+Asking questions can be a really useful tool to further understand or fix a problem.  However, it's only useful if you get a good answer.  And to do that, you must ask good questions.  Whether specifically  asking questions online or to someone else, it's important to be concise.  So here are a few tips about asking good questions:
 
 -First, have you tried searching for the answer to your question?  If not, go ahead and do that first,  If you haven't been able to fond the answer, then go ahead and ask.
 
