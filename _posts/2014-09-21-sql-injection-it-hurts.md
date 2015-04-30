@@ -11,7 +11,7 @@ Say I have an Netflix account (I do, and it's great, by the way).  In order to s
 
 With SQL injection, though, someone could write malicious code into one of those input fields to gain access to and steal data. Not only is this bad because sensitive information might be taken, but the attacked database may also be at risk for changes or modifications by the attacker, like dropping an entire table!
 
-here are a few things you can do to prevent SQL injection.  One is prepared statements (or parameterized queries).  These statements make the developer define all of the SQL code and then passing in each parameter to the query.  This lets the database differentiate between the code and th data.
+Here are a few things you can do to prevent SQL injection.  One is prepared statements (or parameterized queries).  These statements make the developer define all of the SQL code and then pass in each parameter to the query.  This lets the database differentiate between the code and th data.
 
 Another defense is stored procedure, which is stored code that you can use over and over again.  This is helpful because it's stored instead of having a user input anything.
 
