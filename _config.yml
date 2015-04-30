@@ -58,12 +58,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
- - icon:	behance
-   url:	http://behance.com/aj9045
-   desc: Take a look at my Behance portfolio
-   share_url:
-   share_title:
-   share_link:
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
 
 
 exclude: ['vendor']
