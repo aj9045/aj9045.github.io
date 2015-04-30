@@ -30,12 +30,6 @@ baseurl: ""
 # social icons and sharing options
 social:
 
-  - icon: behance
-    url: http://behance.com/aj9045
-    desc: Take a look at my Behance portfolio
-    share_url:
-    share_title:
-    share_link:
 
   - icon: envelope-o
     url:  mailto:stuhrenberg.aj@gmail.com
@@ -54,6 +48,13 @@ social:
   - icon: linkedin
     url:  https://linkedin.com/in/ajstuhrenberg
     desc: I'm on LinkedIn
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: behance
+    url: http://behance.com/aj9045
+    desc: Take a look at my Behance portfolio
     share_url:
     share_title:
     share_link:
