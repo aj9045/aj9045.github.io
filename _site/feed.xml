@@ -6,9 +6,37 @@
 </description>
     <link>http://aj9045.github.io/</link>
     <atom:link href="http://aj9045.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Apr 2015 09:57:56 -0400</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 09:57:56 -0400</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 20:46:42 -0400</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 20:46:42 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Winning With Heroku</title>
+        <description>&lt;p&gt;Well I am certainly learning today.  I decided to deploy my app that I&amp;#39;m working on, called PhotoFinish, on Heroku today using Unicorn.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s just list some of the things that I forgot.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/procfile&quot;&gt;Procfiles&lt;/a&gt; are a thing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bundling is important.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you&amp;#39;re getting a &amp;quot;We&amp;#39;re sorry but something went wrong&amp;quot; message, and you feel like you haven&amp;#39;t done anything wrong, it&amp;#39;s probably because you &lt;a href=&quot;http://stackoverflow.com/questions/20924389/heroku-were-sorry-but-something-went-wrong&quot;&gt;forgot to migrate your shit&lt;/a&gt;. So run: &lt;span class=&quot;keyword&quot;&gt;heroku run rake db:migrate&lt;/span&gt;, and then try to &lt;span class=&quot;keyword&quot;&gt;heroku open&lt;/span&gt; again.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;if you CSS isn&amp;#39;t showing up, you might need &lt;a href=&quot;https://devcenter.heroku.com/articles/ruby-support#injected-plugins&quot;&gt;this&lt;/a&gt;: &lt;span class=&quot;keyword&quot;&gt;gem &amp;#39;rails_12factor&amp;#39;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Just some things to remember for next time.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://aj9045.github.io/2015/04/29/winning-with-heroku.html</link>
+        <guid isPermaLink="true">http://aj9045.github.io/2015/04/29/winning-with-heroku.html</guid>
+        
+        <category>heroku</category>
+        
+        <category>unicorn</category>
+        
+        <category>errors</category>
+        
+        
+      </item>
     
       <item>
         <title>The Q&#39;s and the A&#39;s</title>
@@ -400,27 +428,6 @@ What is the Compass of Shame?  It is a compass that points to four different way
         <pubDate>Fri, 05 Sep 2014 00:00:00 -0400</pubDate>
         <link>http://aj9045.github.io/2014/09/05/all-the-feels-pairing-and-feedback.html</link>
         <guid isPermaLink="true">http://aj9045.github.io/2014/09/05/all-the-feels-pairing-and-feedback.html</guid>
-        
-        <category>cultural</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>#TechProbs</title>
-        <description>&lt;p&gt;So what is a problem that the tech industry is currently facing?  Well, for starters, diversity. CNNMoney put together &lt;a href=&quot;http://money.cnn.com/interactive/technology/tech-diversity-data/%22&quot;&gt;an interactive chart&lt;/a&gt; that gives you a quick look at 5 top tech companies and their diversity based on gender and race.  Of course, this isn&amp;#39;t a complete survey because it only focuses on two genders and throws anyone who doesn&amp;#39;t fit into their race categories into &amp;quot;other,&amp;quot; but at least it gives a good glimpse into the lack of diversity.  It also covers the different positions in the workforce.  While it may look like Asian men are doing better than the rest (not better than white men, of course), you can see where this is not the case.  The next step above the professional workforce is mid-level officer/manager and then officer/manager, and there, the numbers are much lower.  Minorities are not only underrepresented in the tech world, but also even more so in the higher positions in the industry.&lt;/p&gt;
-
-&lt;p&gt;Women are even more underrepresented in the tech industry--around 20%. The tech world has become dominated by men, and the culture tends to be rather sexist and misogynistic.  We live in a world where &amp;quot;you did well, for a girl&amp;quot; is the norm, and where sexual harassment and crude jokes are made at the expense of women.  &amp;quot;Get back in the kitchen&amp;quot; jokes are not funny.  &amp;quot;Go make me a sandwich&amp;quot; jokes are not funny.  And rape jokes are not funny.  Period.  Yet, it goes on.  Women should not have to be afraid to enter a certain industry because of harassment, and they should not feel so uncomfortable from rude remarks and unwanted advances that they feel they have to quit their job (for more on this click &lt;a href=&quot;href=%22http://www.nytimes.com/2014/04/06/technology/technologys-man-problem.html?_r=0%22&quot;&gt;here&lt;/a&gt;).  I don&amp;#39;t identify as a woman, but because most people misgender me I&amp;#39;m worried that this is what awaits me.&lt;/p&gt;
-
-&lt;p&gt;One of the problems is that many of us don&amp;#39;t recognize our privilege.  Privilege is not necessarily a bad thing, and you shouldn&amp;#39;t feel ashamed for being able to take something like not being accused of being moody because of &amp;quot;that time of the month&amp;quot; or not being passed up for a promotion because you&amp;#39;re a person of color.  Even I, as a gender non-conforming person of color, have privilege: I&amp;#39;ve graduated from college and I&amp;#39;m not in debt.  The point is to recognize that you have privilege, and recognize when that privilege comes into play.&lt;/p&gt;
-
-&lt;p&gt;And on that same note, empathy is very important.  Whether it&amp;#39;s empathy for someone losing their favorite socks, to deciding not to make a crude joke at the expense of someone else&amp;#39;s feelings or experiences, it&amp;#39;s time to take charge and step it up. Empathy is one of the most important skills you can have as a person. Think before you do or say something that might make someone feel uncomfortable or threatened, and really try to understand why someone might feel that way if you did/said what you were thinking.  Basically, don&amp;#39;t be an ass.&lt;/p&gt;
-
-&lt;p&gt;However, there&amp;#39;s so much more to this issue than not being a jerk, but there is no real quick fix.  We all are really going to have to make an effort in order to change the sexist and misogynistic culture that has consumed much of the tech industry in order to create a place where everyone feels welcome.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate>
-        <link>http://aj9045.github.io/2014/08/31/techprobs.html</link>
-        <guid isPermaLink="true">http://aj9045.github.io/2014/08/31/techprobs.html</guid>
         
         <category>cultural</category>
         
