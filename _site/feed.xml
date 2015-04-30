@@ -6,8 +6,8 @@
 </description>
     <link>http://aj9045.github.io/</link>
     <atom:link href="http://aj9045.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Apr 2015 20:46:42 -0400</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2015 20:46:42 -0400</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 20:59:40 -0400</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 20:59:40 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -23,7 +23,9 @@
 &lt;li&gt;&lt;p&gt;if you CSS isn&amp;#39;t showing up, you might need &lt;a href=&quot;https://devcenter.heroku.com/articles/ruby-support#injected-plugins&quot;&gt;this&lt;/a&gt;: &lt;span class=&quot;keyword&quot;&gt;gem &amp;#39;rails_12factor&amp;#39;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Just some things to remember for next time.&lt;/p&gt;
+&lt;p&gt;I haven&amp;#39;t deployed anything to Heroku in a bit, so some of these things made me feel like this:
+&lt;img src=&quot;/assets/images/idiot.gif&quot;&gt;
+Just some things to remember for next time, I reckon.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Apr 2015 00:00:00 -0400</pubDate>
         <link>http://aj9045.github.io/2015/04/29/winning-with-heroku.html</link>
