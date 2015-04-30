@@ -6,8 +6,8 @@
 </description>
     <link>http://aj9045.github.io/</link>
     <atom:link href="http://aj9045.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Apr 2015 20:59:40 -0400</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2015 20:59:40 -0400</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 21:01:27 -0400</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 21:01:27 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -20,7 +20,7 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/procfile&quot;&gt;Procfiles&lt;/a&gt; are a thing.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Bundling is important.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If you&amp;#39;re getting a &amp;quot;We&amp;#39;re sorry but something went wrong&amp;quot; message, and you feel like you haven&amp;#39;t done anything wrong, it&amp;#39;s probably because you &lt;a href=&quot;http://stackoverflow.com/questions/20924389/heroku-were-sorry-but-something-went-wrong&quot;&gt;forgot to migrate your shit&lt;/a&gt;. So run: &lt;span class=&quot;keyword&quot;&gt;heroku run rake db:migrate&lt;/span&gt;, and then try to &lt;span class=&quot;keyword&quot;&gt;heroku open&lt;/span&gt; again.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;if you CSS isn&amp;#39;t showing up, you might need &lt;a href=&quot;https://devcenter.heroku.com/articles/ruby-support#injected-plugins&quot;&gt;this&lt;/a&gt;: &lt;span class=&quot;keyword&quot;&gt;gem &amp;#39;rails_12factor&amp;#39;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If your CSS isn&amp;#39;t showing up, you might need &lt;a href=&quot;https://devcenter.heroku.com/articles/ruby-support#injected-plugins&quot;&gt;this&lt;/a&gt;: &lt;span class=&quot;keyword&quot;&gt;gem &amp;#39;rails_12factor&amp;#39;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;I haven&amp;#39;t deployed anything to Heroku in a bit, so some of these things made me feel like this:
