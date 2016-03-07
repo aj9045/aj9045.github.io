@@ -14,7 +14,7 @@ permalink: /about/
         &nbsp;&nbsp;&nbsp;
       {% endif %}
     {% endfor %}
-    <a href="https://drive.google.com/file/d/0BynilUjCLRF9MXFzX3FEdmlyX1U/view?usp=sharing" target="_blank">Resume</a>
+    <a href="https://drive.google.com/file/d/0BynilUjCLRF9ekRIV0o3YXk1bUE/view?usp=sharing" target="_blank">Resume</a>
   </div>
 </div>
 
