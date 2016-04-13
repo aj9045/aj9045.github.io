@@ -4,7 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-<h3>Portfolio</h3>
 <p class="portfolio-p">Check out my <a href="https://www.behance.net/aj9045">Behance</a> and <a href="http://www.instagram.com/ajs9045">Instagram</a> for more creative stuff!</p>
 
 <div id="p-container">
