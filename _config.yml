@@ -61,17 +61,17 @@ social:
 
   - icon:	twitter
     url:	https://twitter.com/aj9045
-    desc: Follow me on Twitter
+    desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
- - icon:	instagram
-   url:	https://instagram.com/ajs9045
-   desc: Connect with me on Instagram
-   share_url:
-   share_title: ?t=
-   share_link: "&amp;u="
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
 
 
 exclude: ['vendor']
