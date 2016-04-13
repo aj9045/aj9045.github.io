@@ -1,6 +1,9 @@
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+gems: ['jekyll-paginate']
 
 # Site settings
 title: #"Copacetic"
@@ -66,12 +69,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+ - icon:	instagram
+   url:	https://instagram.com/ajs9045
+   desc:
+   share_url:
+   share_title:
+   share_link:
 
 
 exclude: ['vendor']

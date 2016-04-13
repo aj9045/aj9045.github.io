@@ -52,33 +52,33 @@
       <article class="post">
         <section class="post-content">
           <a name="topofpage"></a>
-          <p>In an earlier post, I talked a bit about classes in Ruby.  And now I&#39;m going to talk about instance methods and class methods.</p>
+          <p>In an earlier post, I talked a bit about classes in Ruby.  And now I’m going to talk about instance methods and class methods.</p>
 
 <p>Classes are great for organizing and collecting objects.  These objects can include instance methods (instances of a class), which just means methods inside classes.  They function in a similar way as methods outside of a class, except they will only work on objects of the class they are in. For example:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Cat</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">class</span> <span class="nc">Cat</span>
     <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">breed</span><span class="p">,</span> <span class="nb">name</span><span class="p">)</span>
       <span class="vi">@breed</span> <span class="o">=</span> <span class="n">breed</span>
       <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span>
     <span class="k">end</span>
 
     <span class="k">def</span> <span class="nf">list</span>
-      <span class="s2">&quot;</span><span class="si">#{</span><span class="vi">@breed</span><span class="si">}</span><span class="s2"> -- </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="s2">"</span><span class="si">#{</span><span class="vi">@breed</span><span class="si">}</span><span class="s2"> -- </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">"</span>
     <span class="k">end</span>
   <span class="k">end</span>
 
-  <span class="n">lola</span> <span class="o">=</span> <span class="no">Cat</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;Ragdoll&quot;</span><span class="p">,</span> <span class="s2">&quot;Lola&quot;</span><span class="p">)</span>
+  <span class="n">lola</span> <span class="o">=</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"Ragdoll"</span><span class="p">,</span> <span class="s2">"Lola"</span><span class="p">)</span>
 
-  <span class="nb">puts</span> <span class="n">lola</span><span class="o">.</span><span class="n">list</span>
-    <span class="c1">#=&gt; Ragdoll -- Lola</span></code></pre></div>
+  <span class="nb">puts</span> <span class="n">lola</span><span class="p">.</span><span class="nf">list</span>
+    <span class="c1">#=&gt; Ragdoll -- Lola</span></code></pre></figure>
 
-<p>Notice that the method &#39;list&#39; works with the new Cat object &#39;lola&#39; because that method exists within the Cat class.</p>
+<p>Notice that the method ‘list’ works with the new Cat object ‘lola’ because that method exists within the Cat class.</p>
 
-<p>Also, you may have noticed the initialize method.  This is one of Ruby&#39;s built-in instance methods that runs every time a new object of that class is created. So in this case, once &#39;lola&#39; was created, instance variables for both arguments were made in order to be used with the other instance methods.</p>
+<p>Also, you may have noticed the initialize method.  This is one of Ruby’s built-in instance methods that runs every time a new object of that class is created. So in this case, once ‘lola’ was created, instance variables for both arguments were made in order to be used with the other instance methods.</p>
 
-<p>Class methods are different than instance methods because they are called on a class, not an instance of a class.  Here we can see the difference between the two, as a class method will use either the class name or &#39;self.&#39;</p>
+<p>Class methods are different than instance methods because they are called on a class, not an instance of a class.  Here we can see the difference between the two, as a class method will use either the class name or ‘self.’</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Cat</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">class</span> <span class="nc">Cat</span>
     <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">name</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
       <span class="nb">puts</span> <span class="nb">name</span>
     <span class="k">end</span>
@@ -88,14 +88,14 @@
     <span class="k">end</span>
   <span class="k">end</span>
 
-  <span class="nb">puts</span> <span class="no">Cat</span><span class="o">.</span><span class="n">name</span><span class="p">(</span><span class="s2">&quot;Lola&quot;</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">name</span><span class="p">(</span><span class="s2">"Lola"</span><span class="p">)</span>
     <span class="c1">#=&gt; Lola</span>
-  <span class="nb">puts</span> <span class="no">Cat</span><span class="o">.</span><span class="n">breed</span><span class="p">(</span><span class="s2">&quot;Ragdoll&quot;</span><span class="p">)</span>
-    <span class="c1">#=&gt;undefined method `breed&#39; for Cat:Class (NoMethodError) Lola</span></code></pre></div>
+  <span class="nb">puts</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">breed</span><span class="p">(</span><span class="s2">"Ragdoll"</span><span class="p">)</span>
+    <span class="c1">#=&gt;undefined method `breed' for Cat:Class (NoMethodError) Lola</span></code></pre></figure>
 
-<p>You might have noticed that the instance method &#39;breed&#39; is in the Cat class. Because the method &#39;breed&#39; is not a class method, calling it on the class will not work. However, the opposite will happen if we try to create a new object for the Cat class.</p>
+<p>You might have noticed that the instance method ‘breed’ is in the Cat class. Because the method ‘breed’ is not a class method, calling it on the class will not work. However, the opposite will happen if we try to create a new object for the Cat class.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Cat</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">class</span> <span class="nc">Cat</span>
     <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">name</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
       <span class="nb">puts</span> <span class="nb">name</span>
     <span class="k">end</span>
@@ -105,14 +105,14 @@
     <span class="k">end</span>
   <span class="k">end</span>
 
-  <span class="nb">puts</span> <span class="no">Cat</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">name</span><span class="p">(</span><span class="s2">&quot;Lola&quot;</span><span class="p">)</span>
-    <span class="c1">#=&gt; undefined method `name&#39; for #&lt;Cat:0x007fec598aa848&gt; (NoMethodError)</span>
-  <span class="nb">puts</span> <span class="no">Cat</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">breed</span><span class="p">(</span><span class="s2">&quot;Ragdoll&quot;</span><span class="p">)</span>
-    <span class="c1">#=&gt; Ragdoll</span></code></pre></div>
+  <span class="nb">puts</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">name</span><span class="p">(</span><span class="s2">"Lola"</span><span class="p">)</span>
+    <span class="c1">#=&gt; undefined method `name' for #&lt;Cat:0x007fec598aa848&gt; (NoMethodError)</span>
+  <span class="nb">puts</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">breed</span><span class="p">(</span><span class="s2">"Ragdoll"</span><span class="p">)</span>
+    <span class="c1">#=&gt; Ragdoll</span></code></pre></figure>
 
-<p>So when would you use a class method?  Here&#39;s an example, where this class method (&#39;count&#39;) tells you information about the class objects (how many have been created).</p>
+<p>So when would you use a class method?  Here’s an example, where this class method (‘count’) tells you information about the class objects (how many have been created).</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Cat</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">class</span> <span class="nc">Cat</span>
     <span class="vc">@@count</span> <span class="o">=</span> <span class="mi">0</span>
 
     <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">breed</span><span class="p">,</span> <span class="nb">name</span><span class="p">)</span>
@@ -122,7 +122,7 @@
     <span class="k">end</span>
 
     <span class="k">def</span> <span class="nf">list</span>
-      <span class="s2">&quot;</span><span class="si">#{</span><span class="vi">@breed</span><span class="si">}</span><span class="s2"> -- </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="s2">"</span><span class="si">#{</span><span class="vi">@breed</span><span class="si">}</span><span class="s2"> -- </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">"</span>
     <span class="k">end</span>
 
     <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">count</span>
@@ -130,11 +130,11 @@
     <span class="k">end</span>
   <span class="k">end</span>
 
-  <span class="n">lola</span> <span class="o">=</span> <span class="no">Cat</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;ragdoll&quot;</span><span class="p">,</span> <span class="s2">&quot;lola&quot;</span><span class="p">)</span>
-  <span class="n">dakota</span> <span class="o">=</span> <span class="no">Cat</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;savannah cat&quot;</span><span class="p">,</span> <span class="s2">&quot;dakota&quot;</span><span class="p">)</span>
+  <span class="n">lola</span> <span class="o">=</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"ragdoll"</span><span class="p">,</span> <span class="s2">"lola"</span><span class="p">)</span>
+  <span class="n">dakota</span> <span class="o">=</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"savannah cat"</span><span class="p">,</span> <span class="s2">"dakota"</span><span class="p">)</span>
 
-  <span class="no">Cat</span><span class="o">.</span><span class="n">count</span>
-    <span class="c1">#=&gt; 2</span></code></pre></div>
+  <span class="no">Cat</span><span class="p">.</span><span class="nf">count</span>
+    <span class="c1">#=&gt; 2</span></code></pre></figure>
 
 <p>The class Cat is an object (like most everything in Ruby), and therefore, it gets its own methods to look across itself, which is made up of multiple instances.  This is why a class method is used instead of an instance method to count all new instances of the class.</p>
 
@@ -166,7 +166,7 @@
               <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
               <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
               <div class="inner">
-                <section class="copyright">All content copyright <a href="/">AJ Stuhrenberg</a> &copy; 2015<br>All rights reserved.</section>
+                <section class="copyright">All content copyright <a href="/">AJ Stuhrenberg</a> &copy; 2016<br>All rights reserved.</section>
               </div>
             </footer>
           </div>

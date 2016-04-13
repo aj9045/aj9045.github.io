@@ -54,22 +54,22 @@
           <a name="topofpage"></a>
           <p>This is a pretty cool method, if I do say so myself.  It does exactly what you think it would do based on its name.  Similar to the each method, you can cycle through an array and do something to it using a block.  If no block is given, it will return an enumerator.  However, if there is a block but no argument, it creates an infinite loop.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="o">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="o">]</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
 
-  <span class="n">a</span><span class="o">.</span><span class="n">cycle</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">print</span> <span class="n">x</span> <span class="p">}</span>
-  <span class="c1">#=&gt; 13791379137913791379.....infinitely</span></code></pre></div>
+  <span class="n">a</span><span class="p">.</span><span class="nf">cycle</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">print</span> <span class="n">x</span> <span class="p">}</span>
+  <span class="c1">#=&gt; 13791379137913791379.....infinitely</span></code></pre></figure>
 
 <p>The argument is there to say how many times the cycle will run, how many times it will run through the elements in the array.  With each, once you run through each element in the array once, it ends.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span><span class="o">.</span><span class="n">each</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="p">}</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">a</span><span class="p">.</span><span class="nf">each</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="p">}</span>
   <span class="c1">#=&gt; 1</span>
   <span class="c1">#=&gt; 3</span>
   <span class="c1">#=&gt; 7</span>
-  <span class="c1">#=&gt; 9</span></code></pre></div>
+  <span class="c1">#=&gt; 9</span></code></pre></figure>
 
-<p>But you can run through them as many times as you&#39;d like using cycle.</p>
+<p>But you can run through them as many times as you’d like using cycle.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span><span class="o">.</span><span class="n">cycle</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="p">}</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">a</span><span class="p">.</span><span class="nf">cycle</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="p">}</span>
   <span class="c1">#=&gt; 1</span>
   <span class="c1">#=&gt; 3</span>
   <span class="c1">#=&gt; 7</span>
@@ -77,41 +77,41 @@
   <span class="c1">#=&gt; 1</span>
   <span class="c1">#=&gt; 3</span>
   <span class="c1">#=&gt; 7</span>
-  <span class="c1">#=&gt; 9</span></code></pre></div>
+  <span class="c1">#=&gt; 9</span></code></pre></figure>
 
-<p>This is also true when using other methods in conjunction with cycle, like next.  If you use each to go through the elements, once you hit the last elemnt, it will stop because it&#39;s literally gone through each element and will do no more.</p>
+<p>This is also true when using other methods in conjunction with cycle, like next.  If you use each to go through the elements, once you hit the last elemnt, it will stop because it’s literally gone through each element and will do no more.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">b</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span><span class="s2">&quot;b&quot;</span><span class="p">,</span><span class="s2">&quot;c&quot;</span><span class="o">]</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"a"</span><span class="p">,</span><span class="s2">"b"</span><span class="p">,</span><span class="s2">"c"</span><span class="p">]</span>
 
-  <span class="n">run_once</span> <span class="o">=</span> <span class="n">b</span><span class="o">.</span><span class="n">each</span>
+  <span class="n">run_once</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="nf">each</span>
 
-  <span class="nb">puts</span> <span class="n">run_once</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_once</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; a</span>
-  <span class="nb">puts</span> <span class="n">run_once</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_once</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; b</span>
-  <span class="nb">puts</span> <span class="n">run_once</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_once</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; c</span>
-  <span class="nb">puts</span> <span class="n">run_once</span><span class="o">.</span><span class="n">next</span>
-  <span class="c1">#=&gt; iteration reached an end (StopIteration)</span></code></pre></div>
+  <span class="nb">puts</span> <span class="n">run_once</span><span class="p">.</span><span class="nf">next</span>
+  <span class="c1">#=&gt; iteration reached an end (StopIteration)</span></code></pre></figure>
 
 <p>However, if you use next with cycle, it will just  keep going to the next element even if that means starting from the beginning of the array again.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">run_more</span> <span class="o">=</span> <span class="n">b</span><span class="o">.</span><span class="n">cycle</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">run_more</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="nf">cycle</span>
 
-  <span class="nb">puts</span> <span class="n">run_more</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_more</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; a</span>
-  <span class="nb">puts</span> <span class="n">run_more</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_more</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; b</span>
-  <span class="nb">puts</span> <span class="n">run_more</span><span class="o">.</span><span class="n">next</span>
+  <span class="nb">puts</span> <span class="n">run_more</span><span class="p">.</span><span class="nf">next</span>
   <span class="c1">#=&gt; c</span>
-  <span class="nb">puts</span> <span class="n">run_more</span><span class="o">.</span><span class="n">next</span>
-  <span class="c1">#=&gt; a</span></code></pre></div>
+  <span class="nb">puts</span> <span class="n">run_more</span><span class="p">.</span><span class="nf">next</span>
+  <span class="c1">#=&gt; a</span></code></pre></figure>
 
 <p>And like each, you can do more than just print out each element.  For example, adding 3 to each element:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="o">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="o">]</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
 
-  <span class="n">a</span><span class="o">.</span><span class="n">cycle</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">3</span> <span class="p">}</span>
+  <span class="n">a</span><span class="p">.</span><span class="nf">cycle</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">3</span> <span class="p">}</span>
   <span class="c1">#=&gt; 4</span>
   <span class="c1">#=&gt; 6</span>
   <span class="c1">#=&gt; 10</span>
@@ -123,11 +123,11 @@
   <span class="c1">#=&gt; 4</span>
   <span class="c1">#=&gt; 6</span>
   <span class="c1">#=&gt; 10</span>
-  <span class="c1">#=&gt; 12</span></code></pre></div>
+  <span class="c1">#=&gt; 12</span></code></pre></figure>
 
 <p>Another cool thing is that you can cycle through the array backwards without any problem by chaining methods:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span><span class="o">.</span><span class="n">reverse_each</span><span class="o">.</span><span class="n">cycle</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">3</span> <span class="p">}</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="n">a</span><span class="p">.</span><span class="nf">reverse_each</span><span class="p">.</span><span class="nf">cycle</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">3</span> <span class="p">}</span>
   <span class="c1">#=&gt; 12</span>
   <span class="c1">#=&gt; 10</span>
   <span class="c1">#=&gt; 6</span>
@@ -135,9 +135,9 @@
   <span class="c1">#=&gt; 12</span>
   <span class="c1">#=&gt; 10</span>
   <span class="c1">#=&gt; 6</span>
-  <span class="c1">#=&gt; 4</span></code></pre></div>
+  <span class="c1">#=&gt; 4</span></code></pre></figure>
 
-<p>I actually hadn&#39;t even used this method before I decided to do a post on it.  So, this blog post was also a learning experience for me.  Cool beans, eh?</p>
+<p>I actually hadn’t even used this method before I decided to do a post on it.  So, this blog post was also a learning experience for me.  Cool beans, eh?</p>
 
         </section>
         <footer class="post-footer">
@@ -167,7 +167,7 @@
               <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
               <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
               <div class="inner">
-                <section class="copyright">All content copyright <a href="/">AJ Stuhrenberg</a> &copy; 2015<br>All rights reserved.</section>
+                <section class="copyright">All content copyright <a href="/">AJ Stuhrenberg</a> &copy; 2016<br>All rights reserved.</section>
               </div>
             </footer>
           </div>
