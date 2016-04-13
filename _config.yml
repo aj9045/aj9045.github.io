@@ -3,7 +3,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-gems: ['jekyll-paginate']
+gems: [jekyll-paginate]
 
 # Site settings
 title: #"Copacetic"
