@@ -1,8 +1,6 @@
 # Build settings
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
+markdown: kramdown
+highlighter: rouge
 gems: [jekyll-paginate]
 
 # Site settings
@@ -69,12 +67,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
- - icon:	instagram
-   url:	https://instagram.com/ajs9045
-   desc:
-   share_url:
-   share_title:
-   share_link:
+  - icon: instagram
+    url:  https://instagram.com/ajs9045
+    desc:
+    share_url:
+    share_title:
+    share_link:
 
 
 exclude: ['vendor']
